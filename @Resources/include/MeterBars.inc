@@ -618,13 +618,3 @@ W=(18*0.75)
 H=(1040/3)
 BarOrientation=Vertical
 Flip=0
-[MeterBar62]
-Meter=BAR
-Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed63
-X=(7*0.75)R
-Y=0
-W=(18*0.75)
-H=(1040/3)
-BarOrientation=Vertical
-Flip=0

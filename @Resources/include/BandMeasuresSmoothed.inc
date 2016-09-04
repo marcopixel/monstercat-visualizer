@@ -39,7 +39,7 @@ Formula=(MeasureAudioRaw8+MeasureAudioRaw9+MeasureAudioRaw10)/2+#MinBarValue#
 AverageSize=#AverageSize#
 [MeasureAudioSmoothed10]
 Measure=Calc
-Formula=(MeasureAudioRaw9+MeasureAudioRaw10+MeasureAudioRaw11)/1.6+#MinBarValue#
+Formula=(MeasureAudioRaw9+MeasureAudioRaw10+MeasureAudioRaw11)/1.8+#MinBarValue#
 AverageSize=#AverageSize#
 [MeasureAudioSmoothed11]
 Measure=Calc
