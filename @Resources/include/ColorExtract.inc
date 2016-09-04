@@ -19,27 +19,20 @@ IfMatch=Spotify
 IfMatchAction=[!SetVariable MPMode "MeasureCoverSpotify"]
 IfNotMatchAction=[!SetVariable MPMode "MeasureCoverNowPlaying"]
 UpdateDivider=-1
-[ChameleonNowPlaying]
+[MeasureCoverColor]
 Measure=Plugin
-Plugin=Chameleon
-Type=File
-Path=[#MPMode#]
-UpdateDivider=100
-[ChameleonCoverColor]
-Measure=Plugin
-Plugin=Chameleon
-Parent=ChameleonNowPlaying
-Format=Dec
-Color=Average
-Substitute="":"#Color#"
+Plugin=ColorExtract
+ImagePath=[#MPMode#]
+ColorType=Background
+DynamicVariables=1
 
 [StyleStaticBar]
 BarColor=#Color#
 [StyleStaticMeter]
 SolidColor=#Color#
 [StyleCoverMeter]
-SolidColor=[ChameleonCoverColor],255
+SolidColor=[MeasureCoverColor]
 DynamicVariables=1
 [StyleCoverBar]
-BarColor=[ChameleonCoverColor],255
+BarColor=[MeasureCoverColor]
 DynamicVariables=1
