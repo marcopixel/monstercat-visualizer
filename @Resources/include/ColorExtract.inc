@@ -26,7 +26,7 @@ Plugin=ColorExtract
 ImagePath=[#MPMode#]
 ColorType=Background
 DynamicVariables=1
-UpdateDivider=100
+UpdateDivider=20
 
 [StyleStaticBar]
 BarColor=#Color#

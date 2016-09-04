@@ -48,7 +48,7 @@ IfMatchAction12=[!SetVariable GenreColor "#FutureBass#"]
 ; Here is an example for an custom genre. Colors need to be rgb(a) values.
 IfMatch13=Mashup|Mash\sUp
 IfMatchAction13=[!SetVariable GenreColor "192,255,99"]
-UpdateDivider=100
+Substitute="":"#Color#"
 
 ; Styles
 [StyleStaticBar]
