@@ -5,7 +5,7 @@ MeasureName=MeasureAudioSmoothed1
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar1]
@@ -15,7 +15,7 @@ MeasureName=MeasureAudioSmoothed2
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar2]
@@ -25,7 +25,7 @@ MeasureName=MeasureAudioSmoothed3
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar3]
@@ -35,7 +35,7 @@ MeasureName=MeasureAudioSmoothed4
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar4]
@@ -45,7 +45,7 @@ MeasureName=MeasureAudioSmoothed5
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar5]
@@ -55,7 +55,7 @@ MeasureName=MeasureAudioSmoothed6
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar6]
@@ -65,7 +65,7 @@ MeasureName=MeasureAudioSmoothed7
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar7]
@@ -75,7 +75,7 @@ MeasureName=MeasureAudioSmoothed8
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar8]
@@ -85,7 +85,7 @@ MeasureName=MeasureAudioSmoothed9
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar9]
@@ -95,7 +95,7 @@ MeasureName=MeasureAudioSmoothed10
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar10]
@@ -105,7 +105,7 @@ MeasureName=MeasureAudioSmoothed11
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar11]
@@ -115,7 +115,7 @@ MeasureName=MeasureAudioSmoothed12
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar12]
@@ -125,7 +125,7 @@ MeasureName=MeasureAudioSmoothed13
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar13]
@@ -135,7 +135,7 @@ MeasureName=MeasureAudioSmoothed14
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar14]
@@ -145,7 +145,7 @@ MeasureName=MeasureAudioSmoothed15
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar15]
@@ -155,7 +155,7 @@ MeasureName=MeasureAudioSmoothed16
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar16]
@@ -165,7 +165,7 @@ MeasureName=MeasureAudioSmoothed17
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar17]
@@ -175,7 +175,7 @@ MeasureName=MeasureAudioSmoothed18
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar18]
@@ -185,7 +185,7 @@ MeasureName=MeasureAudioSmoothed19
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar19]
@@ -195,7 +195,7 @@ MeasureName=MeasureAudioSmoothed20
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar20]
@@ -205,7 +205,7 @@ MeasureName=MeasureAudioSmoothed21
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar21]
@@ -215,7 +215,7 @@ MeasureName=MeasureAudioSmoothed22
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar22]
@@ -225,7 +225,7 @@ MeasureName=MeasureAudioSmoothed23
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar23]
@@ -235,7 +235,7 @@ MeasureName=MeasureAudioSmoothed24
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar24]
@@ -245,7 +245,7 @@ MeasureName=MeasureAudioSmoothed25
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar25]
@@ -255,7 +255,7 @@ MeasureName=MeasureAudioSmoothed26
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar26]
@@ -265,7 +265,7 @@ MeasureName=MeasureAudioSmoothed27
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar27]
@@ -275,7 +275,7 @@ MeasureName=MeasureAudioSmoothed28
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar28]
@@ -285,7 +285,7 @@ MeasureName=MeasureAudioSmoothed29
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar29]
@@ -295,7 +295,7 @@ MeasureName=MeasureAudioSmoothed30
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar30]
@@ -305,7 +305,7 @@ MeasureName=MeasureAudioSmoothed31
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar31]
@@ -315,7 +315,7 @@ MeasureName=MeasureAudioSmoothed32
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar32]
@@ -325,7 +325,7 @@ MeasureName=MeasureAudioSmoothed33
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar33]
@@ -335,7 +335,7 @@ MeasureName=MeasureAudioSmoothed34
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar34]
@@ -345,7 +345,7 @@ MeasureName=MeasureAudioSmoothed35
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar35]
@@ -355,7 +355,7 @@ MeasureName=MeasureAudioSmoothed36
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar36]
@@ -365,7 +365,7 @@ MeasureName=MeasureAudioSmoothed37
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar37]
@@ -375,7 +375,7 @@ MeasureName=MeasureAudioSmoothed38
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar38]
@@ -385,7 +385,7 @@ MeasureName=MeasureAudioSmoothed39
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar39]
@@ -395,7 +395,7 @@ MeasureName=MeasureAudioSmoothed40
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar40]
@@ -405,7 +405,7 @@ MeasureName=MeasureAudioSmoothed41
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar41]
@@ -415,7 +415,7 @@ MeasureName=MeasureAudioSmoothed42
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar42]
@@ -425,7 +425,7 @@ MeasureName=MeasureAudioSmoothed43
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar43]
@@ -435,7 +435,7 @@ MeasureName=MeasureAudioSmoothed44
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar44]
@@ -445,7 +445,7 @@ MeasureName=MeasureAudioSmoothed45
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar45]
@@ -455,7 +455,7 @@ MeasureName=MeasureAudioSmoothed46
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar46]
@@ -465,7 +465,7 @@ MeasureName=MeasureAudioSmoothed47
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar47]
@@ -475,7 +475,7 @@ MeasureName=MeasureAudioSmoothed48
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar48]
@@ -485,7 +485,7 @@ MeasureName=MeasureAudioSmoothed49
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar49]
@@ -495,7 +495,7 @@ MeasureName=MeasureAudioSmoothed50
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar50]
@@ -505,7 +505,7 @@ MeasureName=MeasureAudioSmoothed51
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar51]
@@ -515,7 +515,7 @@ MeasureName=MeasureAudioSmoothed52
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar52]
@@ -525,7 +525,7 @@ MeasureName=MeasureAudioSmoothed53
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar53]
@@ -535,7 +535,7 @@ MeasureName=MeasureAudioSmoothed54
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar54]
@@ -545,7 +545,7 @@ MeasureName=MeasureAudioSmoothed55
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar55]
@@ -555,7 +555,7 @@ MeasureName=MeasureAudioSmoothed56
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar56]
@@ -565,7 +565,7 @@ MeasureName=MeasureAudioSmoothed57
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar57]
@@ -575,7 +575,7 @@ MeasureName=MeasureAudioSmoothed58
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar58]
@@ -585,7 +585,7 @@ MeasureName=MeasureAudioSmoothed59
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar59]
@@ -595,7 +595,7 @@ MeasureName=MeasureAudioSmoothed60
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar60]
@@ -605,7 +605,7 @@ MeasureName=MeasureAudioSmoothed61
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar61]
@@ -615,7 +615,7 @@ MeasureName=MeasureAudioSmoothed62
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar62]
@@ -625,6 +625,6 @@ MeasureName=MeasureAudioSmoothed63
 X=(7*0.75)R
 Y=0
 W=(18*0.75)
-H=(1040*0.75)/3
+H=(1040/3)
 BarOrientation=Vertical
 Flip=0
