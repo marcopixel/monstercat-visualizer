@@ -1,7 +1,7 @@
 [MeterBar0]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed1
+MeasureName=MeasureAudioSmoothed0
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -11,7 +11,7 @@ Flip=0
 [MeterBar1]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed2
+MeasureName=MeasureAudioSmoothed1
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -21,7 +21,7 @@ Flip=0
 [MeterBar2]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed3
+MeasureName=MeasureAudioSmoothed2
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -31,7 +31,7 @@ Flip=0
 [MeterBar3]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed4
+MeasureName=MeasureAudioSmoothed3
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -41,7 +41,7 @@ Flip=0
 [MeterBar4]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed5
+MeasureName=MeasureAudioSmoothed4
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -51,7 +51,7 @@ Flip=0
 [MeterBar5]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed6
+MeasureName=MeasureAudioSmoothed5
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -61,7 +61,7 @@ Flip=0
 [MeterBar6]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed7
+MeasureName=MeasureAudioSmoothed6
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -71,7 +71,7 @@ Flip=0
 [MeterBar7]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed8
+MeasureName=MeasureAudioSmoothed7
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -81,7 +81,7 @@ Flip=0
 [MeterBar8]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed9
+MeasureName=MeasureAudioSmoothed8
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -91,7 +91,7 @@ Flip=0
 [MeterBar9]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed10
+MeasureName=MeasureAudioSmoothed9
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -101,7 +101,7 @@ Flip=0
 [MeterBar10]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed11
+MeasureName=MeasureAudioSmoothed10
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -111,7 +111,7 @@ Flip=0
 [MeterBar11]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed12
+MeasureName=MeasureAudioSmoothed11
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -121,7 +121,7 @@ Flip=0
 [MeterBar12]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed13
+MeasureName=MeasureAudioSmoothed12
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -131,7 +131,7 @@ Flip=0
 [MeterBar13]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed14
+MeasureName=MeasureAudioSmoothed13
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -141,7 +141,7 @@ Flip=0
 [MeterBar14]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed15
+MeasureName=MeasureAudioSmoothed14
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -151,7 +151,7 @@ Flip=0
 [MeterBar15]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed16
+MeasureName=MeasureAudioSmoothed15
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -161,7 +161,7 @@ Flip=0
 [MeterBar16]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed17
+MeasureName=MeasureAudioSmoothed16
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -171,7 +171,7 @@ Flip=0
 [MeterBar17]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed18
+MeasureName=MeasureAudioSmoothed17
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -181,7 +181,7 @@ Flip=0
 [MeterBar18]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed19
+MeasureName=MeasureAudioSmoothed18
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -191,7 +191,7 @@ Flip=0
 [MeterBar19]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed20
+MeasureName=MeasureAudioSmoothed19
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -201,7 +201,7 @@ Flip=0
 [MeterBar20]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed21
+MeasureName=MeasureAudioSmoothed20
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -211,7 +211,7 @@ Flip=0
 [MeterBar21]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed22
+MeasureName=MeasureAudioSmoothed21
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -221,7 +221,7 @@ Flip=0
 [MeterBar22]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed23
+MeasureName=MeasureAudioSmoothed22
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -231,7 +231,7 @@ Flip=0
 [MeterBar23]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed24
+MeasureName=MeasureAudioSmoothed23
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -241,7 +241,7 @@ Flip=0
 [MeterBar24]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed25
+MeasureName=MeasureAudioSmoothed24
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -251,7 +251,7 @@ Flip=0
 [MeterBar25]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed26
+MeasureName=MeasureAudioSmoothed25
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -261,7 +261,7 @@ Flip=0
 [MeterBar26]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed27
+MeasureName=MeasureAudioSmoothed26
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -271,7 +271,7 @@ Flip=0
 [MeterBar27]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed28
+MeasureName=MeasureAudioSmoothed27
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -281,7 +281,7 @@ Flip=0
 [MeterBar28]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed29
+MeasureName=MeasureAudioSmoothed28
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -291,7 +291,7 @@ Flip=0
 [MeterBar29]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed30
+MeasureName=MeasureAudioSmoothed29
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -301,7 +301,7 @@ Flip=0
 [MeterBar30]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed31
+MeasureName=MeasureAudioSmoothed30
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -311,7 +311,7 @@ Flip=0
 [MeterBar31]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed32
+MeasureName=MeasureAudioSmoothed31
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -321,7 +321,7 @@ Flip=0
 [MeterBar32]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed33
+MeasureName=MeasureAudioSmoothed32
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -331,7 +331,7 @@ Flip=0
 [MeterBar33]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed34
+MeasureName=MeasureAudioSmoothed33
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -341,7 +341,7 @@ Flip=0
 [MeterBar34]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed35
+MeasureName=MeasureAudioSmoothed34
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -351,7 +351,7 @@ Flip=0
 [MeterBar35]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed36
+MeasureName=MeasureAudioSmoothed35
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -361,7 +361,7 @@ Flip=0
 [MeterBar36]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed37
+MeasureName=MeasureAudioSmoothed36
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -371,7 +371,7 @@ Flip=0
 [MeterBar37]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed38
+MeasureName=MeasureAudioSmoothed37
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -381,7 +381,7 @@ Flip=0
 [MeterBar38]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed39
+MeasureName=MeasureAudioSmoothed38
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -391,7 +391,7 @@ Flip=0
 [MeterBar39]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed40
+MeasureName=MeasureAudioSmoothed39
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -401,7 +401,7 @@ Flip=0
 [MeterBar40]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed41
+MeasureName=MeasureAudioSmoothed40
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -411,7 +411,7 @@ Flip=0
 [MeterBar41]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed42
+MeasureName=MeasureAudioSmoothed41
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -421,7 +421,7 @@ Flip=0
 [MeterBar42]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed43
+MeasureName=MeasureAudioSmoothed42
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -431,7 +431,7 @@ Flip=0
 [MeterBar43]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed44
+MeasureName=MeasureAudioSmoothed43
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -441,7 +441,7 @@ Flip=0
 [MeterBar44]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed45
+MeasureName=MeasureAudioSmoothed44
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -451,7 +451,7 @@ Flip=0
 [MeterBar45]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed46
+MeasureName=MeasureAudioSmoothed45
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -461,7 +461,7 @@ Flip=0
 [MeterBar46]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed47
+MeasureName=MeasureAudioSmoothed46
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -471,7 +471,7 @@ Flip=0
 [MeterBar47]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed48
+MeasureName=MeasureAudioSmoothed47
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -481,7 +481,7 @@ Flip=0
 [MeterBar48]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed49
+MeasureName=MeasureAudioSmoothed48
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -491,7 +491,7 @@ Flip=0
 [MeterBar49]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed50
+MeasureName=MeasureAudioSmoothed49
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -501,7 +501,7 @@ Flip=0
 [MeterBar50]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed51
+MeasureName=MeasureAudioSmoothed50
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -511,7 +511,7 @@ Flip=0
 [MeterBar51]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed52
+MeasureName=MeasureAudioSmoothed51
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -521,7 +521,7 @@ Flip=0
 [MeterBar52]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed53
+MeasureName=MeasureAudioSmoothed52
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -531,7 +531,7 @@ Flip=0
 [MeterBar53]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed54
+MeasureName=MeasureAudioSmoothed53
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -541,7 +541,7 @@ Flip=0
 [MeterBar54]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed55
+MeasureName=MeasureAudioSmoothed54
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -551,7 +551,7 @@ Flip=0
 [MeterBar55]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed56
+MeasureName=MeasureAudioSmoothed55
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -561,7 +561,7 @@ Flip=0
 [MeterBar56]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed57
+MeasureName=MeasureAudioSmoothed56
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -571,7 +571,7 @@ Flip=0
 [MeterBar57]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed58
+MeasureName=MeasureAudioSmoothed57
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -581,7 +581,7 @@ Flip=0
 [MeterBar58]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed59
+MeasureName=MeasureAudioSmoothed58
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -591,7 +591,7 @@ Flip=0
 [MeterBar59]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed60
+MeasureName=MeasureAudioSmoothed59
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -601,7 +601,7 @@ Flip=0
 [MeterBar60]
 Meter=BAR
 Group=GroupBarColor
-MeasureName=MeasureAudioSmoothed61
+MeasureName=MeasureAudioSmoothed60
 X=(7*0.8)R
 Y=0
 W=(18*0.8)
@@ -609,6 +609,16 @@ H=(1040/3)
 BarOrientation=Vertical
 Flip=0
 [MeterBar61]
+Meter=BAR
+Group=GroupBarColor
+MeasureName=MeasureAudioSmoothed61
+X=(7*0.8)R
+Y=0
+W=(18*0.8)
+H=(1040/3)
+BarOrientation=Vertical
+Flip=0
+[MeterBar62]
 Meter=BAR
 Group=GroupBarColor
 MeasureName=MeasureAudioSmoothed62

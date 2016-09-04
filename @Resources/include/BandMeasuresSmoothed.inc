@@ -1,9 +1,13 @@
 [Variables]
 @include=#@#variables.ini
 
+[MeasureAudioSmoothed0]
+Measure=Calc
+Formula=(MeasureAudioRaw0+MeasureAudioRaw0+MeasureAudioRaw1)/12+#MinBarValue#
+AverageSize=#AverageSize#
 [MeasureAudioSmoothed1]
 Measure=Calc
-Formula=(MeasureAudioRaw1+MeasureAudioRaw1+MeasureAudioRaw2)/12+#MinBarValue#
+Formula=(MeasureAudioRaw0+MeasureAudioRaw1+MeasureAudioRaw2)/12+#MinBarValue#
 AverageSize=#AverageSize#
 [MeasureAudioSmoothed2]
 Measure=Calc
