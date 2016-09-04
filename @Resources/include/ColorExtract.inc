@@ -5,13 +5,14 @@ Type=AlbumArt
 Res=640
 DefaultPath=#@#images\nocover.png
 CoverPath=#@#images\cover.png
+UpdateDivider=100
 [MeasureCoverNowPlaying]
 Measure=Plugin
 Plugin=NowPlaying
 PlayerName=#PlayerName#
 PlayerType=COVER
 Substitute="":"#@#images\nocover.png"
-UpdateDivider=10
+UpdateDivider=100
 [MeasureSetMediaPlayer]
 Measure=String
 String=#PlayerName#
@@ -25,6 +26,7 @@ Plugin=ColorExtract
 ImagePath=[#MPMode#]
 ColorType=Background
 DynamicVariables=1
+UpdateDivider=100
 
 [StyleStaticBar]
 BarColor=#Color#

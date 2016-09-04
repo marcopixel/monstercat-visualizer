@@ -6,7 +6,7 @@ Measure=Plugin
 Plugin=NowPlaying
 PlayerName=#PlayerName#
 PlayerType=Genre
-UpdateDivider=10
+UpdateDivider=100
 ; You can add your own genres here.
 ; Use | as dividier and replace spaces with \s (otherwise it won't work)
 ; Electro
@@ -48,6 +48,7 @@ IfMatchAction12=[!SetVariable GenreColor "#FutureBass#"]
 ; Here is an example for an custom genre. Colors need to be rgb(a) values.
 IfMatch13=Mashup|Mash\sUp
 IfMatchAction13=[!SetVariable GenreColor "192,255,99"]
+UpdateDivider=100
 
 ; Styles
 [StyleStaticBar]
