@@ -1,3 +1,7 @@
+[Variables]
+; Includes the variables/styles used for the skin.
+@include=#@#variables.ini
+
 [MeasureCoverSpotify]
 Measure=Plugin
 Plugin=SpotifyPlugin
@@ -5,28 +9,29 @@ Type=AlbumArt
 Res=640
 DefaultPath=#@#images\nocover.png
 CoverPath=#@#images\cover.png
-UpdateDivider=100
+
 [MeasureCoverNowPlaying]
 Measure=Plugin
 Plugin=NowPlaying
 PlayerName=#PlayerName#
 PlayerType=COVER
 Substitute="":"#@#images\nocover.png"
-UpdateDivider=100
+
 [MeasureSetMediaPlayer]
 Measure=String
 String=#PlayerName#
 IfMatch=Spotify
-IfMatchAction=[!SetVariable MPMode "MeasureCoverSpotify"]
-IfNotMatchAction=[!SetVariable MPMode "MeasureCoverNowPlaying"]
+IfMatchAction=[!WriteKeyValue Variables MPMode MeasureCoverSpotify "#@#variables.ini"]
+IfNotMatchAction=[!WriteKeyValue Variables MPMode MeasureCoverNowPlaying "#@#variables.ini"]
 UpdateDivider=-1
+
 [MeasureCoverColor]
 Measure=Plugin
 Plugin=ColorExtract
 ImagePath=[#MPMode#]
 ColorType=Background
+Substitute="":"#Color#","0,0,0,255":"#Color#"
 DynamicVariables=1
-UpdateDivider=20
 
 [StyleStaticBar]
 BarColor=#Color#

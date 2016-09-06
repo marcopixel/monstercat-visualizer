@@ -58,6 +58,7 @@ SolidColor=#Color#
 [StyleGenreMeter]
 SolidColor=#GenreColor#
 DynamicVariables=1
+UpdateDivider=100
 [StyleGenreBar]
 BarColor=#GenreColor#
 DynamicVariables=1
