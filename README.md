@@ -3,7 +3,7 @@ An realtime audio visualizer for Rainmeter similar to the used ones in the Monst
 Supports all major media players (AIMP, iTunes, Winamp, VLC, etc...) and full Spotify support (thanks to .raptor for the Spotify plugin).
 
 #### Minimum Requirements:
- - Windows XP
+ - Windows Vista
  - Rainmeter 3.3 (4.0 Beta recommended)
 
 #### Features
