@@ -21,14 +21,14 @@ Substitute="":"#@#images\nocover.png"
 Measure=String
 String=#PlayerName#
 IfMatch=Spotify
-IfMatchAction=[!WriteKeyValue Variables MPMode MeasureCoverSpotify "#@#variables.ini"]
-IfNotMatchAction=[!WriteKeyValue Variables MPMode MeasureCoverNowPlaying "#@#variables.ini"]
+IfMatchAction=[!WriteKeyValue Variables MPMode Spotify "#@#variables.ini"]
+IfNotMatchAction=[!WriteKeyValue Variables MPMode NowPlaying "#@#variables.ini"]
 UpdateDivider=-1
 
 [MeasureCoverColor]
 Measure=Plugin
 Plugin=ColorExtract
-ImagePath=[#MPMode#]
+ImagePath=[MeasureCover#MPMode#]
 ColorType=Background
 Substitute="":"#Color#","0,0,0,255":"#Color#"
 DynamicVariables=1
