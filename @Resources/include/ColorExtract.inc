@@ -21,8 +21,8 @@ Substitute="":"#@#images\nocover.png"
 Measure=String
 String=#PlayerName#
 IfMatch=Spotify
-IfMatchAction=[!WriteKeyValue Variables MPMode Spotify "#@#variables.ini"][!DisableMeasure MeasureAutoHideNowPlaying][!EnableMeasure MeasureAutoHideNowSpotify]
-IfNotMatchAction=[!WriteKeyValue Variables MPMode NowPlaying "#@#variables.ini"][!DisableMeasure MeasureAutoHideNowSpotify][!EnableMeasure MeasureAutoHideNowPlaying]
+IfMatchAction=[!WriteKeyValue Variables MPMode Spotify "#@#variables.ini"]
+IfNotMatchAction=[!WriteKeyValue Variables MPMode NowPlaying "#@#variables.ini"]
 UpdateDivider=-1
 
 [MeasureCoverColor]
