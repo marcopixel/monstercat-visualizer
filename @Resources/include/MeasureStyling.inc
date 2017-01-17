@@ -10,11 +10,11 @@ UpdateDivider=-1
 Measure=Calc
 Formula=#EnableDynamicColors#
 IfBelowValue=1
-IfBelowAction=[!SetOptionGroup GroupBarColor MeterStyle "StyleStaticBar"][!SetOption MeterCoverBG SolidColor "#Color#"]
+IfBelowAction=[!SetOptionGroup GroupBarColor MeterStyle "StyleStaticBar"][!SetOption MeterCoverBG MeterStyle "StyleStaticMeter"]
 IfEqualValue=1
-IfEqualAction=[!SetOptionGroup GroupBarColor MeterStyle "StyleGenreBar"][!SetOption MeterCoverBG SolidColor "[*MeasureGenre*]"]
+IfEqualAction=[!SetOptionGroup GroupBarColor MeterStyle "StyleGenreBar"][!SetOption MeterCoverBG MeterStyle "StyleGenreMeter"]
 IfAboveValue=1
-IfAboveAction=[!SetOptionGroup GroupBarColor MeterStyle "StyleCoverBar"][!SetOption MeterCoverBG SolidColor "[*MeasureCoverColor*]"]
+IfAboveAction=[!SetOptionGroup GroupBarColor MeterStyle "StyleCoverBar"][!SetOption MeterCoverBG MeterStyle "StyleCoverMeter"]
 UpdateDivider=-1
 
 [MeasureSetDynamicFontColors]
