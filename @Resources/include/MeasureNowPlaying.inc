@@ -2,6 +2,12 @@
 ; Includes the variables/styles used for the skin.
 @include=#@#variables.ini
 
+[MeasureState]
+Measure=Plugin
+Plugin=NowPlaying
+PlayerName=#PlayerName#
+PlayerType=State
+UpdateDivider=10
 [MeasureTrack]
 Measure=Plugin
 Plugin=NowPlaying
@@ -12,29 +18,46 @@ Substitute="":"#NoTrackNameText#"
 [MeasureArtist]
 Measure=Plugin
 Plugin=NowPlaying
-PlayerName=[MeasureTrack]
+PlayerName=#PlayerName#
 PlayerType=ARTIST
 UpdateDivider=10
 Substitute="":"#NoArtistNameText#"
 [MeasureCover]
 Measure=Plugin
 Plugin=NowPlaying
-PlayerName=[MeasureTrack]
+PlayerName=#PlayerName#
 PlayerType=COVER
 Substitute="":"#@#images\nocover.png"
+UpdateDivider=10
+DynamicVariables=1
 [MeasurePosition]
 Measure=Plugin
 Plugin=NowPlaying
-PlayerName=[MeasureTrack]
+PlayerName=#PlayerName#
 PlayerType=Position
+UpdateDivider=10
 [MeasureDuration]
 Measure=Plugin
 Plugin=NowPlaying
-PlayerName=[MeasureTrack]
+PlayerName=#PlayerName#
 PlayerType=DURATION
-[MeasurePlayPause]
+UpdateDivider=10
+[MeasureStateButton]
 Measure=Plugin
 Plugin=NowPlaying
-PlayerName=[MeasureTrack]
+PlayerName=#PlayerName#
 PlayerType=STATE
-Substitute="0":"#@#images\play.png","1":"#@#images\pause.png","2":"#@#images\play.png"
+Substitute="0":"Play","1":"Pause","2":"Play"
+[MeasureAutoHideNowPlaying]
+Measure=Plugin
+Plugin=NowPlaying
+PlayerName=#PlayerName#
+PlayerType=STATE
+IfBelowValue=1
+IfBelowAction=[!HideFade][!HideFade "#ROOTCONFIG#\Song Information"]
+IfEqualValue=1
+IfEqualAction=[!ShowFade][!ShowFade "#ROOTCONFIG#\Song Information"]
+IfAboveValue=1
+IfAboveAction=[!ShowFade][!ShowFade "#ROOTCONFIG#\Song Information"]
+UpdateDivider=20
+Disabled=#DisableAutoHide#

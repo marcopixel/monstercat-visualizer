@@ -1,33 +1,3 @@
-[MeasureEnableAutoHide]
-Measure=String
-String=#MPMode#
-IfMatch=Spotify
-IfMatchAction=[!DisableMeasure "MeasureAutoHideNowPlaying"][!EnableMeasure "MeasureAutoHideSpotify"]
-IfNotMatchAction=[!DisableMeasure "MeasureAutoHideSpotify"][!EnableMeasure "MeasureAutoHideNowPlaying"]
-Disabled=#DisableAutoHide#
-UpdateDivider=-1
-[MeasureAutoHideSpotify]
-Measure=Plugin
-Plugin=Process
-ProcessName=Spotify.exe
-IfEqualValue=-1
-IfEqualAction=[!HideFade][!HideFade "#ROOTCONFIG#\Song Information"]
-Disabled=#DisableAutoHide#
-UpdateDivider=20
-[MeasureAutoHideNowPlaying]
-Measure=Plugin
-Plugin=NowPlaying
-PlayerName=#PlayerName#
-PlayerType=STATE
-IfBelowValue=1
-IfBelowAction=[!HideFade][!HideFade "#ROOTCONFIG#\Song Information"]
-IfEqualValue=1
-IfEqualAction=[!ShowFade][!ShowFade "#ROOTCONFIG#\Song Information"]
-IfAboveValue=1
-IfAboveAction=[!ShowFade][!ShowFade "#ROOTCONFIG#\Song Information"]
-UpdateDivider=20
-Disabled=#DisableAutoHide#
-
 [MeasureSetMediaPlayer]
 Measure=String
 String=#PlayerName#
@@ -36,20 +6,46 @@ IfMatchAction=[!WriteKeyValue Variables MPMode Spotify "#@#variables.ini"]
 IfNotMatchAction=[!WriteKeyValue Variables MPMode NowPlaying "#@#variables.ini"]
 UpdateDivider=-1
 
+[MeasureSetDynamicColors]
+Measure=Calc
+Formula=#EnableDynamicColors#
+IfBelowValue=1
+IfBelowAction=[!SetOptionGroup GroupBarColor MeterStyle "StyleStaticBar"][!SetOption MeterCoverBG SolidColor "#Color#"]
+IfEqualValue=1
+IfEqualAction=[!SetOptionGroup GroupBarColor MeterStyle "StyleGenreBar"][!SetOption MeterCoverBG SolidColor "[*MeasureGenre*]"]
+IfAboveValue=1
+IfAboveAction=[!SetOptionGroup GroupBarColor MeterStyle "StyleCoverBar"][!SetOption MeterCoverBG SolidColor "[*MeasureCoverColor*]"]
+UpdateDivider=-1
+
+[MeasureSetDynamicFontColors]
+Measure=Calc
+Formula=#EnableDynamicColors#
+IfBelowValue=1
+IfBelowAction=[!SetOptionGroup SongMeta MeterStyle "StyleStaticText"]
+IfEqualValue=1
+IfEqualAction=[!SetOptionGroup SongMeta MeterStyle "StyleGenreText"]
+IfAboveValue=1
+IfAboveAction=[!SetOptionGroup SongMeta MeterStyle "StyleCoverText"]
+UpdateDivider=-1
+
+[MeasureGetCoverColor]
+Measure=Plugin
+Plugin=Chameleon
+Type=File
+Path=[MeasureCover]
 [MeasureCoverColor]
 Measure=Plugin
-Plugin=ColorExtract
-ImagePath=[MeasureCover]
-ColorType=Background
-Substitute="":"#Color#","0,0,0,255":"#Color#"
-DynamicVariables=1
+Plugin=Chameleon
+Parent=MeasureGetCoverColor
+Format=Dec
+Color=Background1
+Substitute="":"#Color#","0,0,0,255":"#Color#","254,254,254":"#Color#"
 
 [MeasureGenre]
 Measure=Plugin
 Plugin=NowPlaying
 PlayerName=#PlayerName#
 PlayerType=Genre
-UpdateDivider=100
 ; You can add your own genres here.
 ; Use | as dividier and replace spaces with \s (otherwise it won't work)
 ; Electro
@@ -93,24 +89,27 @@ IfMatch13=Mashup|Mash\sUp
 IfMatchAction13=[!SetVariable GenreColor "192,255,99"]
 Substitute="":"#Color#"
 
-[MeasureShowDynamicColors]
-Measure=Calc
-Formula=#EnableDynamicColors#
-IfBelowValue=1
-IfBelowAction=[!SetOptionGroup GroupBarColor MeterStyle "StyleStaticBar"]
-IfEqualValue=1
-IfEqualAction=[!SetOptionGroup GroupBarColor MeterStyle "StyleGenreBar"]
-IfAboveValue=1
-IfAboveAction=[!SetOptionGroup GroupBarColor MeterStyle "StyleCoverBar"]
-UpdateDivider=-1
-
 [StyleStaticBar]
 BarColor=#Color#
 [StyleStaticMeter]
 SolidColor=#Color#
+[StyleStaticText]
+FontColor=#Color#
+[StyleGenreMeter]
+SolidColor=#GenreColor#
+DynamicVariables=1
+[StyleGenreBar]
+BarColor=#GenreColor#
+DynamicVariables=1
+[StyleGenreText]
+FontColor=#GenreColor#
+DynamicVariables=1
 [StyleCoverMeter]
 SolidColor=[MeasureCoverColor]
 DynamicVariables=1
 [StyleCoverBar]
 BarColor=[MeasureCoverColor]
+DynamicVariables=1
+[StyleCoverText]
+FontColor=[MeasureCoverColor]
 DynamicVariables=1

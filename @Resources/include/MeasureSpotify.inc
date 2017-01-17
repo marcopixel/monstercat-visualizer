@@ -38,3 +38,14 @@ Type=Position
 Measure=Plugin
 Plugin=SpotifyPlugin
 Type=Length
+
+[MeasureAutoHideSpotify]
+Measure=Plugin
+Plugin=Process
+ProcessName=Spotify.exe
+IfEqualValue=-1
+IfEqualAction=[!HideFade][!HideFade "#ROOTCONFIG#\Song Information"]
+IfAboveValue=-1
+IfAboveAction=[!ShowFade][!ShowFade "#ROOTCONFIG#\Song Information"]
+Disabled=#DisableAutoHide#
+UpdateDivider=5

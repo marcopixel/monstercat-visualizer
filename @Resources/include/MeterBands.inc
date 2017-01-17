@@ -7,7 +7,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar1]
 Meter=BAR
 Group=GroupBarColor
@@ -17,7 +17,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar2]
 Meter=BAR
 Group=GroupBarColor
@@ -27,7 +27,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar3]
 Meter=BAR
 Group=GroupBarColor
@@ -37,7 +37,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar4]
 Meter=BAR
 Group=GroupBarColor
@@ -47,7 +47,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar5]
 Meter=BAR
 Group=GroupBarColor
@@ -57,7 +57,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar6]
 Meter=BAR
 Group=GroupBarColor
@@ -67,7 +67,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar7]
 Meter=BAR
 Group=GroupBarColor
@@ -77,7 +77,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar8]
 Meter=BAR
 Group=GroupBarColor
@@ -87,7 +87,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar9]
 Meter=BAR
 Group=GroupBarColor
@@ -97,7 +97,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar10]
 Meter=BAR
 Group=GroupBarColor
@@ -107,7 +107,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar11]
 Meter=BAR
 Group=GroupBarColor
@@ -117,7 +117,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar12]
 Meter=BAR
 Group=GroupBarColor
@@ -127,7 +127,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar13]
 Meter=BAR
 Group=GroupBarColor
@@ -137,7 +137,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar14]
 Meter=BAR
 Group=GroupBarColor
@@ -147,7 +147,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar15]
 Meter=BAR
 Group=GroupBarColor
@@ -157,7 +157,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar16]
 Meter=BAR
 Group=GroupBarColor
@@ -167,7 +167,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar17]
 Meter=BAR
 Group=GroupBarColor
@@ -177,7 +177,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar18]
 Meter=BAR
 Group=GroupBarColor
@@ -187,7 +187,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar19]
 Meter=BAR
 Group=GroupBarColor
@@ -197,7 +197,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar20]
 Meter=BAR
 Group=GroupBarColor
@@ -207,7 +207,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar21]
 Meter=BAR
 Group=GroupBarColor
@@ -217,7 +217,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar22]
 Meter=BAR
 Group=GroupBarColor
@@ -227,7 +227,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar23]
 Meter=BAR
 Group=GroupBarColor
@@ -237,7 +237,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar24]
 Meter=BAR
 Group=GroupBarColor
@@ -247,7 +247,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar25]
 Meter=BAR
 Group=GroupBarColor
@@ -257,7 +257,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar26]
 Meter=BAR
 Group=GroupBarColor
@@ -267,7 +267,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar27]
 Meter=BAR
 Group=GroupBarColor
@@ -277,7 +277,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar28]
 Meter=BAR
 Group=GroupBarColor
@@ -287,7 +287,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar29]
 Meter=BAR
 Group=GroupBarColor
@@ -297,7 +297,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar30]
 Meter=BAR
 Group=GroupBarColor
@@ -307,7 +307,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar31]
 Meter=BAR
 Group=GroupBarColor
@@ -317,7 +317,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar32]
 Meter=BAR
 Group=GroupBarColor
@@ -327,7 +327,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar33]
 Meter=BAR
 Group=GroupBarColor
@@ -337,7 +337,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar34]
 Meter=BAR
 Group=GroupBarColor
@@ -347,7 +347,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar35]
 Meter=BAR
 Group=GroupBarColor
@@ -357,7 +357,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar36]
 Meter=BAR
 Group=GroupBarColor
@@ -367,7 +367,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar37]
 Meter=BAR
 Group=GroupBarColor
@@ -377,7 +377,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar38]
 Meter=BAR
 Group=GroupBarColor
@@ -387,7 +387,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar39]
 Meter=BAR
 Group=GroupBarColor
@@ -397,7 +397,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar40]
 Meter=BAR
 Group=GroupBarColor
@@ -407,7 +407,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar41]
 Meter=BAR
 Group=GroupBarColor
@@ -417,7 +417,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar42]
 Meter=BAR
 Group=GroupBarColor
@@ -427,7 +427,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar43]
 Meter=BAR
 Group=GroupBarColor
@@ -437,7 +437,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar44]
 Meter=BAR
 Group=GroupBarColor
@@ -447,7 +447,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar45]
 Meter=BAR
 Group=GroupBarColor
@@ -457,7 +457,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar46]
 Meter=BAR
 Group=GroupBarColor
@@ -467,7 +467,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar47]
 Meter=BAR
 Group=GroupBarColor
@@ -477,7 +477,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar48]
 Meter=BAR
 Group=GroupBarColor
@@ -487,7 +487,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar49]
 Meter=BAR
 Group=GroupBarColor
@@ -497,7 +497,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar50]
 Meter=BAR
 Group=GroupBarColor
@@ -507,7 +507,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar51]
 Meter=BAR
 Group=GroupBarColor
@@ -517,7 +517,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar52]
 Meter=BAR
 Group=GroupBarColor
@@ -527,7 +527,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar53]
 Meter=BAR
 Group=GroupBarColor
@@ -537,7 +537,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar54]
 Meter=BAR
 Group=GroupBarColor
@@ -547,7 +547,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar55]
 Meter=BAR
 Group=GroupBarColor
@@ -557,7 +557,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar56]
 Meter=BAR
 Group=GroupBarColor
@@ -567,7 +567,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar57]
 Meter=BAR
 Group=GroupBarColor
@@ -577,7 +577,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar58]
 Meter=BAR
 Group=GroupBarColor
@@ -587,7 +587,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar59]
 Meter=BAR
 Group=GroupBarColor
@@ -597,7 +597,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar60]
 Meter=BAR
 Group=GroupBarColor
@@ -607,7 +607,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar61]
 Meter=BAR
 Group=GroupBarColor
@@ -617,7 +617,7 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
 [MeterBar62]
 Meter=BAR
 Group=GroupBarColor
@@ -627,4 +627,4 @@ Y=0
 W=(18*0.8)
 H=400
 BarOrientation=Vertical
-Flip=0
+Flip=1
