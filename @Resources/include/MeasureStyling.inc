@@ -19,7 +19,7 @@ UpdateDivider=-1
 
 [MeasureSetDynamicFontColors]
 Measure=Calc
-Formula=#EnableDynamicColors#
+Formula=#EnableDynamicFontColors#
 IfBelowValue=1
 IfBelowAction=[!SetOptionGroup SongMeta MeterStyle "StyleStaticText"]
 IfEqualValue=1
@@ -94,7 +94,7 @@ BarColor=#Color#
 [StyleStaticMeter]
 SolidColor=#Color#
 [StyleStaticText]
-FontColor=#Color#
+FontColor=#FontColor#
 [StyleGenreMeter]
 SolidColor=#GenreColor#
 DynamicVariables=1
