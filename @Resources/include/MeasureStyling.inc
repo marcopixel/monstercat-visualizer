@@ -10,22 +10,18 @@ UpdateDivider=-1
 Measure=Calc
 Formula=#EnableDynamicColors#
 IfBelowValue=1
-IfBelowAction=[!SetOptionGroup GroupBarColor MeterStyle "StyleStaticBar"][!SetOption MeterCoverBG MeterStyle "StyleStaticMeter"]
+IfBelowAction=[!SetOptionGroup GroupBarColor MeterStyle "StyleStaticBar"][!SetOption MeterCoverBG MeterStyle "StyleStaticMeter"][!SetOptionGroup SongMeta MeterStyle "StyleStaticText"]
 IfEqualValue=1
-IfEqualAction=[!SetOptionGroup GroupBarColor MeterStyle "StyleGenreBar"][!SetOption MeterCoverBG MeterStyle "StyleGenreMeter"]
+IfEqualAction=[!SetOptionGroup GroupBarColor MeterStyle "StyleGenreBar"][!SetOption MeterCoverBG MeterStyle "StyleGenreMeter"][!SetOptionGroup SongMeta MeterStyle "StyleGenreText"]
 IfAboveValue=1
-IfAboveAction=[!SetOptionGroup GroupBarColor MeterStyle "StyleCoverBar"][!SetOption MeterCoverBG MeterStyle "StyleCoverMeter"]
+IfAboveAction=[!SetOptionGroup GroupBarColor MeterStyle "StyleCoverBar"][!SetOption MeterCoverBG MeterStyle "StyleCoverMeter"][!SetOptionGroup SongMeta MeterStyle "StyleCoverText"]
 UpdateDivider=-1
 
-[MeasureSetDynamicFontColors]
+[MeasureDisableDynamicFontColors]
 Measure=Calc
-Formula=#EnableDynamicFontColors#
-IfBelowValue=1
-IfBelowAction=[!SetOptionGroup SongMeta MeterStyle "StyleStaticText"]
+Formula=#DisableDynamicFontColors#
 IfEqualValue=1
-IfEqualAction=[!SetOptionGroup SongMeta MeterStyle "StyleGenreText"]
-IfAboveValue=1
-IfAboveAction=[!SetOptionGroup SongMeta MeterStyle "StyleCoverText"]
+IfEqualAction=[!SetOptionGroup SongMeta MeterStyle "StyleStaticText"]
 UpdateDivider=-1
 
 [MeasureGetCoverColor]
