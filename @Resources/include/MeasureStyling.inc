@@ -2,7 +2,7 @@
 Measure=String
 String=#PlayerName#
 IfMatch=Spotify
-IfMatchAction=[!WriteKeyValue Variables MPMode Spotify "#@#variables.ini"][!SetOption MeasureGenre Disabled "1"]
+IfMatchAction=[!WriteKeyValue Variables MPMode Spotify "#@#variables.ini"]
 IfNotMatchAction=[!WriteKeyValue Variables MPMode NowPlaying "#@#variables.ini"]
 UpdateDivider=-1
 
@@ -84,7 +84,6 @@ IfMatchAction12=[!SetVariable GenreColor "#FutureBass#"]
 IfMatch13=Mashup|Mash\sUp
 IfMatchAction13=[!SetVariable GenreColor "192,255,99"]
 Substitute="":"#Color#"
-Disabled=0
 
 [StyleStaticBar]
 BarColor=#Color#
