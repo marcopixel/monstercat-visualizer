@@ -8,6 +8,7 @@ Plugin=NowPlaying
 PlayerName=#PlayerName#
 PlayerType=State
 UpdateDivider=10
+
 [MeasureTrack]
 Measure=Plugin
 Plugin=NowPlaying
@@ -15,6 +16,7 @@ PlayerName=#PlayerName#
 PlayerType=TITLE
 UpdateDivider=10
 Substitute="":"#NoTrackNameText#"
+
 [MeasureArtist]
 Measure=Plugin
 Plugin=NowPlaying
@@ -22,6 +24,7 @@ PlayerName=#PlayerName#
 PlayerType=ARTIST
 UpdateDivider=10
 Substitute="":"#NoArtistNameText#"
+
 [MeasureCover]
 Measure=Plugin
 Plugin=NowPlaying
@@ -29,25 +32,28 @@ PlayerName=#PlayerName#
 PlayerType=COVER
 Substitute="":"#@#images\nocover.png"
 UpdateDivider=10
-DynamicVariables=1
+
 [MeasurePosition]
 Measure=Plugin
 Plugin=NowPlaying
 PlayerName=#PlayerName#
 PlayerType=Position
 UpdateDivider=10
+
 [MeasureDuration]
 Measure=Plugin
 Plugin=NowPlaying
 PlayerName=#PlayerName#
 PlayerType=DURATION
 UpdateDivider=10
+
 [MeasureStateButton]
 Measure=Plugin
 Plugin=NowPlaying
 PlayerName=#PlayerName#
 PlayerType=STATE
 Substitute="0":"Play","1":"Pause","2":"Play"
+
 [MeasureAutoHideNowPlaying]
 Measure=Plugin
 Plugin=NowPlaying
@@ -59,5 +65,5 @@ IfEqualValue=1
 IfEqualAction=[!ShowFade][!ShowFade "#ROOTCONFIG#\Song Information"]
 IfAboveValue=1
 IfAboveAction=[!ShowFade][!ShowFade "#ROOTCONFIG#\Song Information"]
-UpdateDivider=20
+UpdateDivider=10
 Disabled=#DisableAutoHide#
