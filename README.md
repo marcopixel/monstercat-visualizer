@@ -1,6 +1,6 @@
 ![Monstercat Visualizer Screenshot](http://orig05.deviantart.net/da2c/f/2016/250/b/9/monstercat_visualizer_for_rainmeter_1_4_by_marcopixel-d81jr83.png "Monstercat Visualizer Screenshot")
 
-<h1 align="center">Monstercat Visualizer for Rainmeter</h1>
+# monstercat-visualizer
 An realtime audio visualizer for Rainmeter similar to the used ones in the Monstercat videos.
 Supports all major media players (AIMP, iTunes, Winamp, VLC, etc...) and full Spotify support (thanks to .raptor for the Spotify plugin).
 
