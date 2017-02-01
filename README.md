@@ -1,6 +1,9 @@
 ![Monstercat Visualizer Screenshot](http://orig05.deviantart.net/da2c/f/2016/250/b/9/monstercat_visualizer_for_rainmeter_1_4_by_marcopixel-d81jr83.png "Monstercat Visualizer Screenshot")
 
-# monstercat-visualizer
+# monstercat-visualizer (Google Play Music Desktop Player Branch)
+
+### This branch is including the [Google Play Music Desktop Player for Rainmeter](https://github.com/tjhrulz/BetterMusicPlugin/tree/GPMDP) plugin. This branch allows to get the music info from Google Play Music Desktop Player to Rainmeter skins.
+
 An realtime audio visualizer for Rainmeter similar to the used ones in the Monstercat videos.
 Supports all major media players (AIMP, iTunes, Winamp, VLC, etc...) and full Spotify support (thanks to .raptor for the Spotify plugin).
 
