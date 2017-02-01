@@ -2,7 +2,7 @@
 Measure=String
 String=#PlayerName#
 IfMatch=Spotify
-IfMatchAction=[!WriteKeyValue Variables MPMode Spotify "#@#variables.ini"]
+IfMatchAction=[!WriteKeyValue Variables MPMode Spotify "#@#variables.ini"][!SetOption MeasureGenre Disabled "1"]
 IfMatch2=GPMDP
 IfMatchAction2=[!WriteKeyValue Variables MPMode GPMDP "#@#variables.ini"][!SetOption MeasureGenre Disabled "1"]
 IfNotMatchAction=[!WriteKeyValue Variables MPMode NowPlaying "#@#variables.ini"]
