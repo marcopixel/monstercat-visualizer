@@ -2,16 +2,6 @@
 ; Includes the variables/styles used for the skin.
 @include=#@#variables.ini
 
-[MeasureState]
-Measure=Plugin
-Plugin=GPMDPPlugin
-PlayerInfo=State
-IfEqualValue=0
-IfEqualAction=[!HideFade][!HideFade "#ROOTCONFIG#\Song Information"]
-IfAboveValue=0
-IfAboveAction=[!ShowFade][!ShowFade "#ROOTCONFIG#\Song Information"]
-Disabled=#DisableAutoHide#
-
 [MeasureStateButton]
 Measure=Plugin
 Plugin=GPMDPPlugin
@@ -47,3 +37,13 @@ PlayerInfo=Position
 Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=Duration
+
+[MeasureAutoHideGPMDP]
+Measure=Plugin
+Plugin=GPMDPPlugin
+PlayerInfo=Status
+IfEqualValue=0
+IfEqualAction=[!HideFade][!HideFade "#ROOTCONFIG#\Song Information"]
+IfAboveValue=0
+IfAboveAction=[!ShowFade][!ShowFade "#ROOTCONFIG#\Song Information"]
+Disabled=#DisableAutoHide#
