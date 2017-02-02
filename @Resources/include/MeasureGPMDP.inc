@@ -7,6 +7,13 @@ Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=State
 
+[MeasureGPMDPStatus]
+Measure=Plugin
+Plugin=GPMDPPlugin
+PlayerInfo=ConnectionStatus
+IfEqualValue=1
+IfEqualAction=[!ActivateConfig "#ROOTCONFIG#\Settings\auth"]
+
 [MeasureStateButton]
 Measure=Plugin
 Plugin=GPMDPPlugin
