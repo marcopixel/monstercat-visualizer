@@ -93,7 +93,7 @@ BarColor=#Color#
 [StyleStaticMeter]
 SolidColor=#Color#
 [StyleStaticText]
-FontColor=#FontColor#
+FontColor=#TextColor#
 [StyleGenreMeter]
 SolidColor=#GenreColor#
 DynamicVariables=1
