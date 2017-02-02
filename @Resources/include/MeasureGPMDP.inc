@@ -50,6 +50,12 @@ Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=Duration
 
+[MeasureProgress]
+Measure=Plugin
+Plugin=GPMDPPlugin
+PlayerInfo=Progress
+AverageSize=20
+
 [MeasureAutoHideGPMDP]
 Measure=Plugin
 Plugin=GPMDPPlugin
