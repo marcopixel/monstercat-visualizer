@@ -47,6 +47,13 @@ PlayerName=#PlayerName#
 PlayerType=DURATION
 UpdateDivider=10
 
+[MeasureProgress]
+Measure=Plugin
+Plugin=NowPlaying
+PlayerName=#PlayerName#
+PlayerType=Progress
+UpdateDivider=10
+
 [MeasureStateButton]
 Measure=Plugin
 Plugin=NowPlaying

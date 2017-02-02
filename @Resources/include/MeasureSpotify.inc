@@ -45,6 +45,12 @@ Measure=Plugin
 Plugin=SpotifyPlugin
 Type=Length
 
+[MeasureProgress]
+Measure=Plugin
+Plugin=SpotifyPlugin
+Type=Progress
+AverageSize=20
+
 [MeasureAutoHideSpotify]
 Measure=Plugin
 Plugin=Process
