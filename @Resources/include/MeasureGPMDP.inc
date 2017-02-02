@@ -2,6 +2,11 @@
 ; Includes the variables/styles used for the skin.
 @include=#@#variables.ini
 
+[MeasureState]
+Measure=Plugin
+Plugin=GPMDPPlugin
+PlayerInfo=State
+
 [MeasureStateButton]
 Measure=Plugin
 Plugin=GPMDPPlugin
