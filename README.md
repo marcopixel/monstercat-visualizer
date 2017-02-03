@@ -1,4 +1,4 @@
-![Monstercat Visualizer Screenshot](http://orig05.deviantart.net/da2c/f/2016/250/b/9/monstercat_visualizer_for_rainmeter_1_4_by_marcopixel-d81jr83.png "Monstercat Visualizer Screenshot")
+![Monstercat Visualizer Screenshot](https://raw.githubusercontent.com/MarcoPixel/marcopixel.github.io/master/img/monstercat.png "Monstercat Visualizer Screenshot")
 
 # monstercat-visualizer
 
@@ -16,7 +16,7 @@ Supports all major media players, including full Spotify (thanks to **[.raptor](
 - Customizable colors and fonts
 - Genre-based colors (AIMP, CAD, iTunes, WMP and Winamp)
 - Cover-based colors (All supported players)
-- Support for all mayor media players
+- Support for all major media players
 - Full Spotify support
 - Full Google Play Music Desktop Player support
 - Media controls & progress bar
@@ -48,7 +48,7 @@ Supports all major media players, including full Spotify (thanks to **[.raptor](
 
 &nbsp;&nbsp;&nbsp;**2.**  Go to **.installer\plugins** and then move the 32 or 64-bit plugins (depending on your system) to &nbsp;&nbsp;&nbsp;**AppData\Roaming\Rainmeter\Plugins**.
 
-&nbsp;&nbsp;&nbsp;**3.**  Launch Rainmeter and right-click the tray icon, press Skins and go to **Monstercat-Visualizer** and open **visualizer.ini**.
+&nbsp;&nbsp;&nbsp;**3.**  Launch Rainmeter and right-click the tray icon, press Skins and go to **Monstercat-Visualizer** and open **Settings\intro\intro.ini**.
 
 &nbsp;&nbsp;&nbsp;**4.**  You're done! Enjoy your new desktop visualizer!
 To access the settings, right-click the visualizer and press Open &nbsp;&nbsp;&nbsp;Settings.
@@ -69,9 +69,9 @@ You can also request new features and help them develop by joining the discussio
 ### Credits
 
 - **Rainmeter Skin** - MarcoPixel
-- **AudioLevel Plugin (visualizer)** - **[@dcgrace](https://github.com/dcgrace)**
+- **AudioLevel Plugin (visualizer)** - **[@dcgrace](https://github.com/dcgrace/AudioLevel)**
 - **Spotify Plugin** - **[.raptor](https://forum.rainmeter.net/viewtopic.php?t=17077)** from the Rainmeter Forums
-- **Google Play Music Desktop Player Plugin** - **[@tjhrulz](https://github.com/tjhrulz)**
+- **Google Play Music Desktop Player Plugin** - **[@tjhrulz](https://github.com/tjhrulz/GPMDP-Plugin)**
 - **Nexa Font** - FontFabric (thanks to **[RekaVM](http://rekavm.deviantart.com/)** for showing me the fonts)
 - **Media controls icons** - Material Design icons by Google (https://material.io/icons/)
 - **Monstercat 021 Artwork (used in the installer)** - petirep 
