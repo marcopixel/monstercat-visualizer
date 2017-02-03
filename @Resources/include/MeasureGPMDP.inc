@@ -4,60 +4,64 @@
 
 [MeasureState]
 Measure=Plugin
-Plugin=NowPlaying
-Playername=Spotify
-PlayerType=State
+Plugin=GPMDPPlugin
+PlayerInfo=State
+
+[MeasureGPMDPStatus]
+Measure=Plugin
+Plugin=GPMDPPlugin
+PlayerInfo=ConnectionStatus
+IfEqualValue=1
+IfEqualAction=[!ActivateConfig "#ROOTCONFIG#\Settings\auth"]
 
 [MeasureStateButton]
 Measure=Plugin
-Plugin=SpotifyPlugin
-Type=Playing
+Plugin=GPMDPPlugin
+PlayerInfo=State
 Substitute="0":"Play","1":"Pause","2":"Play"
 
 [MeasureTrack]
 Measure=Plugin
-Plugin=SpotifyPlugin
-Type=TrackName
+Plugin=GPMDPPlugin
+PlayerInfo=Title
 Substitute="":"#NoTrackNameText#"
 
 [MeasureArtist]
 Measure=Plugin
-Plugin=SpotifyPlugin
-Type=ArtistName
+Plugin=GPMDPPlugin
+PlayerInfo=Artist
 Substitute="":"#NoArtistNameText#"
 
 [MeasureCover]
 Measure=Plugin
-Plugin=SpotifyPlugin
-Type=AlbumArt
-Res=640
-DefaultPath=#@#images\nocover.png
-CoverPath=#@#images\cover.png
+Plugin=GPMDPPlugin
+PlayerInfo=Cover
+DefaultPath=#@#Images\nocover.png
+CoverPath=#@#Images\cover.png
 Paused=#ShowMonstercatCover#
 
 [MeasurePosition]
 Measure=Plugin
-Plugin=SpotifyPlugin
-Type=Position
+Plugin=GPMDPPlugin
+PlayerInfo=Position
 
 [MeasureDuration]
 Measure=Plugin
-Plugin=SpotifyPlugin
-Type=Length
+Plugin=GPMDPPlugin
+PlayerInfo=Duration
 
 [MeasureProgress]
 Measure=Plugin
-Plugin=SpotifyPlugin
-Type=Progress
+Plugin=GPMDPPlugin
+PlayerInfo=Progress
 AverageSize=20
 
-[MeasureAutoHideSpotify]
+[MeasureAutoHideGPMDP]
 Measure=Plugin
-Plugin=Process
-ProcessName=Spotify.exe
-IfEqualValue=-1
+Plugin=GPMDPPlugin
+PlayerInfo=Status
+IfEqualValue=0
 IfEqualAction=[!HideFade][!HideFade "#ROOTCONFIG#\Song Information"]
-IfAboveValue=-1
+IfAboveValue=0
 IfAboveAction=[!ShowFade][!ShowFade "#ROOTCONFIG#\Song Information"]
 Disabled=#DisableAutoHide#
-UpdateDivider=10
