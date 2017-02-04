@@ -2,7 +2,7 @@
 
 # monstercat-visualizer
 
-An realtime audio visualizer for Rainmeter similar to the used ones in the Monstercat videos.
+An realtime audio visualizer for Rainmeter similar to the ones used in the Monstercat videos.
 
 Supports all major media players, including full Spotify (thanks to **[.raptor](https://forum.rainmeter.net/viewtopic.php?t=17077)** for the Spotify plugin) and Google Play Music Desktop Player (thanks to **[@tjhrulz](https://github.com/tjhrulz)** for his plugin) support.
 
