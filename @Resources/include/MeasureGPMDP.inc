@@ -36,8 +36,8 @@ Substitute="":"#NoArtistNameText#"
 Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=Cover
-DefaultPath=#@#Images\nocover.png
-CoverPath=#@#Images\cover.png
+DefaultPath=#@#images\nocover.png
+CoverPath=#@#images\coverGPMDP.png
 Paused=#ShowMonstercatCover#
 
 [MeasurePosition]

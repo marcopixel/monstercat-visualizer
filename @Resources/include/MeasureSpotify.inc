@@ -32,7 +32,7 @@ Plugin=SpotifyPlugin
 Type=AlbumArt
 Res=640
 DefaultPath=#@#images\nocover.png
-CoverPath=#@#images\cover.png
+CoverPath=#@#images\coverSpotify.png
 Paused=#ShowMonstercatCover#
 
 [MeasurePosition]
