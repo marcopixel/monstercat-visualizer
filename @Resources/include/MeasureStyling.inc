@@ -26,6 +26,13 @@ IfEqualValue=1
 IfEqualAction=[!SetOptionGroup SongMeta MeterStyle "StyleStaticText"]
 UpdateDivider=-1
 
+[MeasureFlipProgressbar]
+Measure=Calc
+Formula=#FlipVisualizer#
+IfEqualValue=1
+IfEqualAction=[!SetOption MeterProgressBar Y 0]
+UpdateDivider=-1
+
 [MeasureGetCoverColor]
 Measure=Plugin
 Plugin=Chameleon
