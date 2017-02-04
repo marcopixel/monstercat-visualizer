@@ -53,11 +53,11 @@ AverageSize=20
 
 [MeasureAutoHideSpotify]
 Measure=Plugin
-Plugin=Process
-ProcessName=Spotify.exe
-IfEqualValue=-1
+Plugin=NowPlaying
+PlayerName=Spotify
+PlayerType=State
+IfEqualValue=0
 IfEqualAction=[!HideFade][!HideFade "#ROOTCONFIG#\Song Information"]
-IfAboveValue=-1
+IfAboveValue=0
 IfAboveAction=[!ShowFade][!ShowFade "#ROOTCONFIG#\Song Information"]
 Disabled=#DisableAutoHide#
-UpdateDivider=10
