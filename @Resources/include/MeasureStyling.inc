@@ -2,10 +2,10 @@
 Measure=String
 String=#PlayerName#
 IfMatch=Spotify
-IfMatchAction=[!WriteKeyValue Variables MPMode Spotify "#@#variables.ini"][!SetOption MeasureGenre Disabled "1"]
+IfMatchAction=[!WriteKeyValue Variables MPMode Spotify "#@#variables.ini"][!DisableMeasure MeasureGenre]
 IfMatch2=GPMDP
-IfMatchAction2=[!WriteKeyValue Variables MPMode GPMDP "#@#variables.ini"][!SetOption MeasureGenre Disabled "1"]
-IfNotMatchAction=[!WriteKeyValue Variables MPMode NowPlaying "#@#variables.ini"][!SetOption MeasureGenre Disabled "0"]
+IfMatchAction2=[!WriteKeyValue Variables MPMode GPMDP "#@#variables.ini"][!DisableMeasure MeasureGenre]
+IfNotMatchAction=[!WriteKeyValue Variables MPMode NowPlaying "#@#variables.ini"][!EnableMeasure MeasureGenre]
 UpdateDivider=-1
 
 [MeasureSetDynamicColors]
@@ -38,6 +38,7 @@ Measure=Plugin
 Plugin=Chameleon
 Type=File
 Path=[MeasureCover]
+UpdateDivider=10
 [MeasureCoverColor]
 Measure=Plugin
 Plugin=Chameleon
@@ -45,6 +46,7 @@ Parent=MeasureGetCoverColor
 Format=Dec
 Color=Background1
 Substitute="":"#Color#","0,0,0,255":"#Color#","254,254,254":"#Color#"
+UpdateDivider=10
 
 [MeasureGenre]
 Measure=Plugin
@@ -93,6 +95,7 @@ IfMatchAction12=[!SetVariable GenreColor "#FutureBass#"]
 IfMatch13=Mashup|Mash\sUp
 IfMatchAction13=[!SetVariable GenreColor "192,255,99"]
 Substitute="":"#Color#"
+Disabled=1
 
 [StyleStaticBar]
 BarColor=#Color#

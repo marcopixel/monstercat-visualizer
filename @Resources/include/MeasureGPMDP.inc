@@ -38,6 +38,7 @@ Plugin=GPMDPPlugin
 PlayerInfo=Cover
 DefaultPath=#@#images\nocover.png
 CoverPath=#@#images\coverGPMDP.png
+Substitute="":"#@#images\nocover.png"
 Paused=#ShowMonstercatCover#
 
 [MeasurePosition]

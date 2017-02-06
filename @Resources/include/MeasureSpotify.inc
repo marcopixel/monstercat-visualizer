@@ -33,6 +33,7 @@ Type=AlbumArt
 Res=640
 DefaultPath=#@#images\nocover.png
 CoverPath=#@#images\coverSpotify.png
+Substitute="":"#@#images\nocover.png"
 Paused=#ShowMonstercatCover#
 
 [MeasurePosition]
