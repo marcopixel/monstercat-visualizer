@@ -48,7 +48,7 @@ Supports all major media players, including full Spotify (thanks to **[.raptor](
 
 &nbsp;&nbsp;&nbsp;**2.**  Go to **.installer\plugins** and then move the 32 or 64-bit plugins (depending on your system) to &nbsp;&nbsp;&nbsp;**AppData\Roaming\Rainmeter\Plugins**.
 
-&nbsp;&nbsp;&nbsp;**3.**  Launch Rainmeter and right-click the tray icon, press Skins and go to **Monstercat-Visualizer** and open **Settings\intro\intro.ini**.
+&nbsp;&nbsp;&nbsp;**3.**  Launch Rainmeter and right-click the tray icon, press Skins and go to **Monstercat-Visualizer** and open &nbsp;&nbsp;&nbsp;**Settings\intro\intro.ini**.
 
 &nbsp;&nbsp;&nbsp;**4.**  You're done! Enjoy your new desktop visualizer!
 To access the settings, right-click the visualizer and press Open &nbsp;&nbsp;&nbsp;Settings.
