@@ -7,6 +7,7 @@ Measure=Plugin
 Plugin=NowPlaying
 Playername=Spotify
 PlayerType=State
+UpdateDivider=10
 
 [MeasureStateButton]
 Measure=Plugin
@@ -19,12 +20,14 @@ Measure=Plugin
 Plugin=SpotifyPlugin
 Type=TrackName
 Substitute="":"#NoTrackNameText#"
+UpdateDivider=100
 
 [MeasureArtist]
 Measure=Plugin
 Plugin=SpotifyPlugin
 Type=ArtistName
 Substitute="":"#NoArtistNameText#"
+UpdateDivider=100
 
 [MeasureCover]
 Measure=Plugin
@@ -35,22 +38,26 @@ DefaultPath=#@#images\nocover.png
 CoverPath=#@#images\coverSpotify.png
 Substitute="":"#@#images\nocover.png"
 Paused=#ShowMonstercatCover#
+UpdateDivider=50
 
 [MeasurePosition]
 Measure=Plugin
 Plugin=SpotifyPlugin
 Type=Position
+UpdateDivider=10
 
 [MeasureDuration]
 Measure=Plugin
 Plugin=SpotifyPlugin
 Type=Length
+UpdateDivider=10
 
 [MeasureProgress]
 Measure=Plugin
 Plugin=SpotifyPlugin
 Type=Progress
 AverageSize=20
+UpdateDivider=10
 
 [MeasureAutoHideSpotify]
 Measure=Plugin
@@ -62,3 +69,4 @@ IfEqualAction=[!HideFade][!HideFade "#ROOTCONFIG#\Song Information"]
 IfAboveValue=0
 IfAboveAction=[!ShowFade][!ShowFade "#ROOTCONFIG#\Song Information"]
 Disabled=#DisableAutoHide#
+UpdateDivider=100
