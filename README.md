@@ -64,7 +64,7 @@ If you still have issues or a bug, please report them [here](https://github.com/
 
 You can also request new features and help them develop by joining the discussion. Just add the **request label** to your issue and we will have a look!
 
-#### [Click here to get to the open issues](https://github.com/MarcoPixel/Monstercat-Visualizer/wiki).
+#### [Click here to get to the open issues](https://github.com/MarcoPixel/Monstercat-Visualizer/issues).
 
 ### Credits
 
