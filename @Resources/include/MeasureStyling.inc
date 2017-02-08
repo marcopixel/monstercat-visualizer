@@ -38,7 +38,8 @@ Measure=Plugin
 Plugin=Chameleon
 Type=File
 Path=[MeasureCover]
-UpdateDivider=10
+UpdateDivider=50
+
 [MeasureCoverColor]
 Measure=Plugin
 Plugin=Chameleon
@@ -46,7 +47,6 @@ Parent=MeasureGetCoverColor
 Format=Dec
 Color=Background1
 Substitute="":"#Color#","0,0,0,255":"#Color#","254,254,254":"#Color#"
-UpdateDivider=10
 
 [MeasureGenre]
 Measure=Plugin
