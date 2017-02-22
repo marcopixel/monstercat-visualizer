@@ -38,7 +38,6 @@ Measure=Plugin
 Plugin=Chameleon
 Type=File
 Path=[MeasureCover]
-UpdateDivider=50
 
 [MeasureCoverColor]
 Measure=Plugin
