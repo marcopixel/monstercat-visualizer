@@ -33,6 +33,13 @@ IfEqualValue=1
 IfEqualAction=[!SetOption MeterProgressBar Y 0]
 UpdateDivider=-1
 
+[MeasureClipSongInformation]
+Measure=Calc
+Formula=#ClipSongInformation#
+IfEqualValue=1
+IfEqualAction=[!SetOption MeterArtist W "(#BarWidth#+#BarGap#)*(#BarCount#-12)*#ScaleVisualizer#"][!SetOption MeterTrack W "(#BarWidth#+#BarGap#)*(#BarCount#-12)*#ScaleVisualizer#-(8*#ScaleSongInformation#)"]
+UpdateDivider=-1
+
 [MeasureGetCoverColor]
 Measure=Plugin
 Plugin=Chameleon
