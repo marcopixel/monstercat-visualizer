@@ -12,11 +12,11 @@ UpdateDivider=-1
 Measure=Calc
 Formula=#EnableDynamicColors#
 IfBelowValue=1
-IfBelowAction=[!SetOptionGroup GroupBarColor MeterStyle "StyleStaticBar"][!SetOption MeterCoverBG MeterStyle "StyleStaticMeter"][!SetOptionGroup SongMeta MeterStyle "StyleStaticText"][!DisableMeasure MeasureGenre][!DisableMeasure MeasureGetCoverColor][!DisableMeasure MeasureCoverColor]
+IfBelowAction=[!SetOptionGroup GroupBars MeterStyle "StyleStaticBar"][!SetOptionGroup GroupProgressBar MeterStyle "StyleStaticBar"][!SetOption MeterCoverBG MeterStyle "StyleStaticMeter"][!SetOptionGroup SongMeta MeterStyle "StyleStaticText"][!DisableMeasure MeasureGenre][!DisableMeasure MeasureGetCoverColor][!DisableMeasure MeasureCoverColor]
 IfEqualValue=1
-IfEqualAction=[!SetOptionGroup GroupBarColor MeterStyle "StyleGenreBar"][!SetOption MeterCoverBG MeterStyle "StyleGenreMeter"][!SetOptionGroup SongMeta MeterStyle "StyleGenreText"][!EnableMeasure MeasureGenre][!DisableMeasure MeasureGetCoverColor][!DisableMeasure MeasureCoverColor]
+IfEqualAction=[!SetOptionGroup GroupBars MeterStyle "StyleGenreBar"][!SetOptionGroup GroupProgressBar MeterStyle "StyleGenreBar"][!SetOption MeterCoverBG MeterStyle "StyleGenreMeter"][!SetOptionGroup SongMeta MeterStyle "StyleGenreText"][!EnableMeasure MeasureGenre][!DisableMeasure MeasureGetCoverColor][!DisableMeasure MeasureCoverColor]
 IfAboveValue=1
-IfAboveAction=[!SetOptionGroup GroupBarColor MeterStyle "StyleCoverBar"][!SetOption MeterCoverBG MeterStyle "StyleCoverMeter"][!SetOptionGroup SongMeta MeterStyle "StyleCoverText"][!DisableMeasure MeasureGenre][!EnableMeasure MeasureGetCoverColor][!EnableMeasure MeasureCoverColor]
+IfAboveAction=[!SetOptionGroup GroupBars MeterStyle "StyleCoverBar"][!SetOptionGroup GroupProgressBar MeterStyle "StyleCoverBar"][!SetOption MeterCoverBG MeterStyle "StyleCoverMeter"][!SetOptionGroup SongMeta MeterStyle "StyleCoverText"][!DisableMeasure MeasureGenre][!EnableMeasure MeasureGetCoverColor][!EnableMeasure MeasureCoverColor]
 UpdateDivider=-1
 
 [MeasureDisableDynamicFontColors]
