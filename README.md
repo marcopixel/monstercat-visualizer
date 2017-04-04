@@ -1,7 +1,7 @@
 ![Monstercat Visualizer Screenshot](https://raw.githubusercontent.com/MarcoPixel/marcopixel.github.io/master/img/monstercat.png "Monstercat Visualizer Screenshot")
 
 # monstercat-visualizer
-[![GitHub release](https://img.shields.io/github/release/MarcoPixel/Monstercat-Visualizer.svg?colorB=97CA00?label=version)]() [![Github All Releases](https://img.shields.io/github/downloads/MarcoPixel/Monstercat-Visualizer/total.svg?colorB=97CA00)]() [![GitHub stars](https://img.shields.io/github/stars/MarcoPixel/Monstercat-Visualizer.svg?colorB=007EC6)](https://github.com/MarcoPixel/Monstercat-Visualizer/stargazers)  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/MarcoPixel/Monstercat-Visualizer/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/MarcoPixel/Monstercat-Visualizer.svg?colorB=97CA00?label=version)](https://github.com/MarcoPixel/Monstercat-Visualizer/releases/latest) [![Github All Releases](https://img.shields.io/github/downloads/MarcoPixel/Monstercat-Visualizer/total.svg?colorB=97CA00)](https://github.com/MarcoPixel/Monstercat-Visualizer/releases) [![GitHub stars](https://img.shields.io/github/stars/MarcoPixel/Monstercat-Visualizer.svg?colorB=007EC6)](https://github.com/MarcoPixel/Monstercat-Visualizer/stargazers)  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/MarcoPixel/Monstercat-Visualizer/master/LICENSE)
 
 An realtime audio visualizer for Rainmeter similar to the ones used in the Monstercat videos.
 
