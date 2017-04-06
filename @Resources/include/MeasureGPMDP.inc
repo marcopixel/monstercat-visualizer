@@ -13,7 +13,7 @@ Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=ConnectionStatus
 IfEqualValue=1
-IfEqualAction=[!ActivateConfig "#ROOTCONFIG#\Settings\auth"]
+IfEqualAction=[!ActivateConfig "#ROOTCONFIG#\Settings\misc\auth" "GPMDPAuth.ini"]
 UpdateDivider=100
 
 [MeasureStateButton]
