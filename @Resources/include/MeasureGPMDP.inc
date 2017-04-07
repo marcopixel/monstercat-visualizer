@@ -1,7 +1,3 @@
-[Variables]
-; Includes the variables/styles used for the skin.
-@include=#@#variables.ini
-
 [MeasureState]
 Measure=Plugin
 Plugin=GPMDPPlugin

@@ -1,6 +1,3 @@
-[Variables]
-@include=#@#variables.ini
-
 [MeasureAudioSmoothed0]
 Measure=Calc
 Formula=(MeasureAudioRaw0+MeasureAudioRaw0+MeasureAudioRaw1)/12+#MinBarValue#
