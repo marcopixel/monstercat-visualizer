@@ -8,7 +8,7 @@ function Initialize()
 	  if b ~= 1 then
 	    SKIN:Bang("!SetOption", "Rainmeter", "ContextTitle" .. a, j)
 	  else
-	    SKIN:Bang("!SetOption", "Rainmeter", "ContextAction" .. a, "[!WriteKeyValue Variables AudioDeviceID " .. j .. " \"#@#variables.ini\" ][!RefreshGroup Spectrum][!DeactivateConfig]")
+	    SKIN:Bang("!SetOption", "Rainmeter", "ContextAction" .. a, "[!WriteKeyValue Variables AudioDeviceID " .. j .. " \"#@#variables.ini\" ][!RefreshGroup Spectrum][!RefreshGroup Settings][!DeactivateConfig]")
 	  end
 	  b = b + 1
 	end
