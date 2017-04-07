@@ -1,7 +1,3 @@
-[Variables]
-; Includes the variables/styles used for the skin.
-@include=#@#variables.ini
-
 [MeasureState]
 Measure=Plugin
 Plugin=NowPlaying
@@ -61,12 +57,11 @@ UpdateDivider=10
 
 [MeasureAutoHideSpotify]
 Measure=Plugin
-Plugin=NowPlaying
-PlayerName=Spotify
-PlayerType=State
-IfEqualValue=0
+Plugin=Process
+ProcessName=Spotify.exe
+IfEqualValue=-1
 IfEqualAction=[!HideFade][!HideFade "#ROOTCONFIG#\Song Information"]
-IfAboveValue=0
+IfAboveValue=-1
 IfAboveAction=[!ShowFade][!ShowFade "#ROOTCONFIG#\Song Information"]
 Disabled=#DisableAutoHide#
 UpdateDivider=100
