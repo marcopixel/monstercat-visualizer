@@ -17,7 +17,7 @@ function Initialize()
   -- Add group to MeterBars and then update them
   for i = lowerLimit, upperLimit do
     meterName[i] = "MeterBar" .. i-1
-    SKIN:Bang("!SetOption", meterName[i], "Group", "GroupBars", config)
+    SKIN:Bang("!SetOption", meterName[i], "Group", "GroupBars | GroupDynamicColors", config)
     SKIN:Bang("!UpdateMeter", meterName[i], config)
   end
 

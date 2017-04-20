@@ -1,441 +1,378 @@
 [MeterBar0]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed0
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar1]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed1
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar2]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed2
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar3]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed3
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar4]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed4
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar5]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed5
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar6]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed6
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar7]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed7
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar8]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed8
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar9]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed9
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar10]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed10
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar11]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed11
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar12]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed12
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar13]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed13
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar14]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed14
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar15]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed15
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar16]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed16
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar17]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed17
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar18]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed18
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar19]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed19
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar20]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed20
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar21]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed21
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar22]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed22
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar23]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed23
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar24]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed24
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar25]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed25
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar26]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed26
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar27]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed27
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar28]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed28
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar29]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed29
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar30]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed30
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar31]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed31
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar32]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed32
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar33]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed33
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar34]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed34
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar35]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed35
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar36]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed36
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar37]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed37
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar38]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed38
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar39]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed39
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar40]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed40
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar41]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed41
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar42]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed42
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar43]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed43
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar44]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed44
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar45]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed45
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar46]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed46
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar47]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed47
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar48]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed48
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar49]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed49
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar50]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed50
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar51]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed51
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar52]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed52
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar53]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed53
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar54]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed54
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar55]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed55
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar56]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed56
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar57]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed57
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar58]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed58
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar59]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed59
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar60]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed60
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar61]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed61
 TransformationMatrix=[Matrix]
-DynamicVariables=1
 [MeterBar62]
 Meter=BAR
 BarColor=#Color#
-Group=GroupBars
+Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed62
 TransformationMatrix=[Matrix]
-DynamicVariables=1
