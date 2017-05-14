@@ -10,7 +10,7 @@ function Initialize()
   -- Set options for each config
   local barHeight = SKIN:ParseFormula(SKIN:GetVariable("BarHeight"))
   local barWidth, barGap = SKIN:ParseFormula(SKIN:GetVariable("BarWidth")) * SKIN:ParseFormula(SKIN:GetVariable("ScaleVisualizer")), SKIN:ParseFormula(SKIN:GetVariable("BarGap")) * SKIN:ParseFormula(SKIN:GetVariable("ScaleVisualizer"))
-  local offset = barWidth + barGap
+  local offset = math.ceil(barWidth) + math.ceil(barGap)
   local angle = SKIN:ParseFormula(SKIN:GetVariable("Angle"))
   local meterName, lowerLimit, upperLimit = {}, 1, SKIN:ParseFormula(SKIN:GetVariable("BarCount"))
 
