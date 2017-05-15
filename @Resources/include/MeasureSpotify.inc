@@ -48,11 +48,15 @@ Plugin=SpotifyPlugin
 Type=Length
 UpdateDivider=10
 
-[MeasureProgress]
+[MeasureProgressPrecent]
 Measure=Plugin
 Plugin=SpotifyPlugin
 Type=Progress
 UpdateDivider=10
+
+[MeasureProgress]
+Measure=Calc
+Formula=MeasureProgressPrecent*100
 
 [MeasureAutoHideSpotify]
 Measure=Plugin
