@@ -4,14 +4,6 @@ Plugin=GPMDPPlugin
 PlayerInfo=State
 UpdateDivider=10
 
-[MeasureGPMDPStatus]
-Measure=Plugin
-Plugin=GPMDPPlugin
-PlayerInfo=ConnectionStatus
-IfEqualValue=1
-IfEqualAction=[!ActivateConfig "#ROOTCONFIG#\Settings\misc\auth" "GPMDPAuth.ini"]
-UpdateDivider=100
-
 [MeasureStateButton]
 Measure=Plugin
 Plugin=GPMDPPlugin
@@ -58,7 +50,6 @@ UpdateDivider=10
 Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=Progress
-AverageSize=20
 UpdateDivider=10
 
 [MeasureAutoHideGPMDP]

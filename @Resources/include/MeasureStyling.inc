@@ -1,3 +1,14 @@
+[MeasureSetDynamicColors]
+Measure=Calc
+Formula=#EnableDynamicColors#
+IfBelowValue=1
+IfBelowAction=[!DisableMeasure MeasureGenre][!DisableMeasure MeasureGetCoverColor][!DisableMeasure MeasureCoverColor]
+IfEqualValue=1
+IfEqualAction=[!EnableMeasure MeasureGenre][!DisableMeasure MeasureGetCoverColor][!DisableMeasure MeasureCoverColor]
+IfAboveValue=1
+IfAboveAction=[!DisableMeasure MeasureGenre][!EnableMeasure MeasureGetCoverColor][!EnableMeasure MeasureCoverColor]
+UpdateDivider=-1
+
 [MeasureSetMediaPlayer]
 Measure=String
 String=#PlayerName#
@@ -5,25 +16,7 @@ IfMatch=Spotify
 IfMatchAction=[!WriteKeyValue Variables MPMode Spotify "#@#variables.ini"][!DisableMeasure MeasureGenre]
 IfMatch2=GPMDP
 IfMatchAction2=[!WriteKeyValue Variables MPMode GPMDP "#@#variables.ini"][!DisableMeasure MeasureGenre]
-IfNotMatchAction=[!WriteKeyValue Variables MPMode NowPlaying "#@#variables.ini"][!EnableMeasure MeasureGenre]
-UpdateDivider=-1
-
-[MeasureSetDynamicColors]
-Measure=Calc
-Formula=#EnableDynamicColors#
-IfBelowValue=1
-IfBelowAction=[!SetOptionGroup GroupBars MeterStyle "StyleStaticBar"][!SetOptionGroup GroupProgressBar MeterStyle "StyleStaticBar"][!SetOption MeterCoverBG MeterStyle "StyleStaticMeter"][!SetOptionGroup SongMeta MeterStyle "StyleStaticText"][!DisableMeasure MeasureGenre][!DisableMeasure MeasureGetCoverColor][!DisableMeasure MeasureCoverColor]
-IfEqualValue=1
-IfEqualAction=[!SetOptionGroup GroupBars MeterStyle "StyleGenreBar"][!SetOptionGroup GroupProgressBar MeterStyle "StyleGenreBar"][!SetOption MeterCoverBG MeterStyle "StyleGenreMeter"][!SetOptionGroup SongMeta MeterStyle "StyleGenreText"][!EnableMeasure MeasureGenre][!DisableMeasure MeasureGetCoverColor][!DisableMeasure MeasureCoverColor]
-IfAboveValue=1
-IfAboveAction=[!SetOptionGroup GroupBars MeterStyle "StyleCoverBar"][!SetOptionGroup GroupProgressBar MeterStyle "StyleCoverBar"][!SetOption MeterCoverBG MeterStyle "StyleCoverMeter"][!SetOptionGroup SongMeta MeterStyle "StyleCoverText"][!DisableMeasure MeasureGenre][!EnableMeasure MeasureGetCoverColor][!EnableMeasure MeasureCoverColor]
-UpdateDivider=-1
-
-[MeasureDisableDynamicFontColors]
-Measure=Calc
-Formula=#DisableDynamicFontColors#
-IfEqualValue=1
-IfEqualAction=[!SetOptionGroup SongMeta MeterStyle "StyleStaticText"]
+IfNotMatchAction=[!WriteKeyValue Variables MPMode NowPlaying "#@#variables.ini"]
 UpdateDivider=-1
 
 [MeasureClipSongInformation]
@@ -40,6 +33,16 @@ IfEqualValue=1
 IfEqualAction=[!SetOption MeterArtist StringEffect "Border"][!SetOption MeterTrack StringEffect "Border"]
 UpdateDivider=-1
 
+[MeasureStaticColor]
+Measure=String
+String=#Color#
+UpdateDivider=-1
+
+[MeasureStaticColorText]
+Measure=String
+String=#TextColor#
+UpdateDivider=-1
+
 [MeasureGetCoverColor]
 Measure=Plugin
 Plugin=Chameleon
@@ -52,7 +55,8 @@ Plugin=Chameleon
 Parent=MeasureGetCoverColor
 Format=Dec
 Color=Background1
-Substitute="":"#Color#","0,0,0,255":"#Color#","254,254,254":"#Color#"
+Substitute="":"#Color#"
+OnChangeAction=[!UpdateMeasure "CalcColors"]
 
 [MeasureGenre]
 Measure=Plugin
@@ -101,29 +105,22 @@ IfMatchAction12=[!SetVariable GenreColor "#FutureBass#"]
 IfMatch13=Mashup|Mash\sUp
 IfMatchAction13=[!SetVariable GenreColor "192,255,99"]
 Substitute="":"#Color#"
+OnChangeAction=[!UpdateMeasure "CalcColors"]
 Disabled=1
 
-[StyleStaticBar]
-BarColor=#Color#
-[StyleStaticMeter]
-SolidColor=#Color#
-[StyleStaticText]
-FontColor=#TextColor#
-[StyleGenreMeter]
-SolidColor=#GenreColor#
-DynamicVariables=1
-[StyleGenreBar]
-BarColor=#GenreColor#
-DynamicVariables=1
-[StyleGenreText]
-FontColor=#GenreColor#
-DynamicVariables=1
-[StyleCoverMeter]
-SolidColor=[MeasureCoverColor]
-DynamicVariables=1
-[StyleCoverBar]
-BarColor=[MeasureCoverColor]
-DynamicVariables=1
-[StyleCoverText]
-FontColor=[MeasureCoverColor]
-DynamicVariables=1
+[CalcColors]
+Measure=Calc
+IfConditionMode=1
+IfCondition= (#EnableDynamicColors# = 0) && (#DisableDynamicFontColors# = 1)
+IfTrueAction=[!SetVariable Color "[MeasureStaticColor]"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
+IfCondition2= (#EnableDynamicColors# = 1) && (#DisableDynamicFontColors# = 1)
+IfTrueAction2=[!SetVariable Color "#GenreColor#"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
+IfCondition3= (#EnableDynamicColors# = 2) && (#DisableDynamicFontColors# = 1)
+IfTrueAction3=[!SetVariable Color "[MeasureCoverColor]"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
+IfCondition4= (#EnableDynamicColors# = 0) && (#DisableDynamicFontColors# = 0)
+IfTrueAction4=[!SetVariable Color "[MeasureStaticColor]"][!SetVariable TextColor "[MeasureStaticColor]"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
+IfCondition5= (#EnableDynamicColors# = 1) && (#DisableDynamicFontColors# = 0)
+IfTrueAction5=[!SetVariable Color "#GenreColor#"][!SetVariable TextColor "#GenreColor#"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
+IfCondition6= (#EnableDynamicColors# = 2) && (#DisableDynamicFontColors# = 0)
+IfTrueAction6=[!SetVariable Color "[MeasureCoverColor]"][!SetVariable TextColor "[MeasureCoverColor]"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
+UpdateDivider=-1
