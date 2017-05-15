@@ -376,3 +376,75 @@ BarColor=#Color#
 Group=GroupBars | GroupDynamicColors
 MeasureName=MeasureAudioSmoothed62
 TransformationMatrix=[Matrix]
+[MeterBar63]
+Meter=BAR
+BarColor=#Color#
+Group=GroupBars | GroupDynamicColors
+MeasureName=MeasureAudioSmoothed63
+TransformationMatrix=[Matrix]
+[MeterBar64]
+Meter=BAR
+BarColor=#Color#
+Group=GroupBars | GroupDynamicColors
+MeasureName=MeasureAudioSmoothed64
+TransformationMatrix=[Matrix]
+[MeterBar65]
+Meter=BAR
+BarColor=#Color#
+Group=GroupBars | GroupDynamicColors
+MeasureName=MeasureAudioSmoothed65
+TransformationMatrix=[Matrix]
+[MeterBar66]
+Meter=BAR
+BarColor=#Color#
+Group=GroupBars | GroupDynamicColors
+MeasureName=MeasureAudioSmoothed66
+TransformationMatrix=[Matrix]
+[MeterBar67]
+Meter=BAR
+BarColor=#Color#
+Group=GroupBars | GroupDynamicColors
+MeasureName=MeasureAudioSmoothed67
+TransformationMatrix=[Matrix]
+[MeterBar68]
+Meter=BAR
+BarColor=#Color#
+Group=GroupBars | GroupDynamicColors
+MeasureName=MeasureAudioSmoothed68
+TransformationMatrix=[Matrix]
+[MeterBar69]
+Meter=BAR
+BarColor=#Color#
+Group=GroupBars | GroupDynamicColors
+MeasureName=MeasureAudioSmoothed69
+TransformationMatrix=[Matrix]
+[MeterBar70]
+Meter=BAR
+BarColor=#Color#
+Group=GroupBars | GroupDynamicColors
+MeasureName=MeasureAudioSmoothed70
+TransformationMatrix=[Matrix]
+[MeterBar71]
+Meter=BAR
+BarColor=#Color#
+Group=GroupBars | GroupDynamicColors
+MeasureName=MeasureAudioSmoothed71
+TransformationMatrix=[Matrix]
+[MeterBar72]
+Meter=BAR
+BarColor=#Color#
+Group=GroupBars | GroupDynamicColors
+MeasureName=MeasureAudioSmoothed72
+TransformationMatrix=[Matrix]
+[MeterBar73]
+Meter=BAR
+BarColor=#Color#
+Group=GroupBars | GroupDynamicColors
+MeasureName=MeasureAudioSmoothed73
+TransformationMatrix=[Matrix]
+[MeterBar74]
+Meter=BAR
+BarColor=#Color#
+Group=GroupBars | GroupDynamicColors
+MeasureName=MeasureAudioSmoothed74
+TransformationMatrix=[Matrix]
