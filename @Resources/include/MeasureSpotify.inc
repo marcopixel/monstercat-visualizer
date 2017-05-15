@@ -52,7 +52,6 @@ UpdateDivider=10
 Measure=Plugin
 Plugin=SpotifyPlugin
 Type=Progress
-AverageSize=20
 UpdateDivider=10
 
 [MeasureAutoHideSpotify]

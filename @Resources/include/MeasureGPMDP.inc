@@ -50,7 +50,6 @@ UpdateDivider=10
 Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=Progress
-AverageSize=20
 UpdateDivider=10
 
 [MeasureAutoHideGPMDP]
