@@ -77,6 +77,7 @@ You can also request new features and help them develop by joining the discussio
 - **Media controls icons** - Material Design icons by Google (https://material.io/icons/)
 - **Monstercat 021 Artwork (used in the installer)** - petirep 
 - Thanks to **undefinist** for letting me use his factory code (made everything so much easier and cleaner)
+- Thanks to **[@alatsombath](https://github.com/alatsombath)** for letting me use his rotation and audio device picker code :thumbsup:
 - For bringing awesome music and artists to the community - Monstercat <3
 
 ##### Disclaimer: The resources used in this skin are in no way endorsed by the respective owners. This skin is not affiliated with Monstercat and the artists.
