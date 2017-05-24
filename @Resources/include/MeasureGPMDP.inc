@@ -51,6 +51,7 @@ Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=Progress
 UpdateDivider=10
+AverageSize=10
 
 [MeasureAutoHideGPMDP]
 Measure=Plugin
