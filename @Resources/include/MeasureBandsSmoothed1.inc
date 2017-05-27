@@ -1,6 +1,6 @@
 [MeasureAudioSmoothed0]
 Measure=Calc
-Formula=(MeasureAudioRaw0*#multi6#+MeasureAudioRaw0*#multi5#+MeasureAudioRaw0*#multi4#+MeasureAudioRaw0*#multi3#+MeasureAudioRaw0*#multi2#+MeasureAudioRaw0*#multi1#+MeasureAudioRaw1*#multi2#+MeasureAudioRaw3*#multi3#+MeasureAudioRaw5*#multi4#+MeasureAudioRaw7*#multi5#+MeasureAudioRaw9*#multi6#+MeasureAudioRaw0*#multi6#+MeasureAudioRaw0*#multi5#+MeasureAudioRaw0*#multi4#+MeasureAudioRaw0*#multi3#+MeasureAudioRaw0*#multi2#+MeasureAudioRaw1*#multi1#+MeasureAudioRaw3*#multi2#+MeasureAudioRaw5*#multi3#+MeasureAudioRaw7*#multi4#+MeasureAudioRaw9*#multi5#+MeasureAudioRaw11*#multi6#)/#Divider#+#MinBarValue#
+Formula=(MeasureAudioRaw0*#multi6#+MeasureAudioRaw0*#multi5#+MeasureAudioRaw0*#multi4#+MeasureAudioRaw0*#multi3#+MeasureAudioRaw0*#multi2#+MeasureAudioRaw0*#multi1#+MeasureAudioRaw1*#multi2#+MeasureAudioRaw3*#multi3#+MeasureAudioRaw5*#multi4#+MeasureAudioRaw7*#multi5#+MeasureAudioRaw9*#multi6#+MeasureAudioRaw0*#multi6#+MeasureAudioRaw0*#multi5#+MeasureAudioRaw0*#multi4#+MeasureAudioRaw0*#multi3#+MeasureAudioRaw0*#multi2#+MeasureAudioRaw1*#multi1#+MeasureAudioRaw3*#multi2#+MeasureAudioRaw5*#multi3#+MeasureAudioRaw7*#multi4#+MeasureAudioRaw9*#multi5#+MeasureAudioRaw11*#multi6#)/2/#Divider#+#MinBarValue#
 AverageSize=#AverageSize#
 [MeasureAudioSmoothed1]
 Measure=Calc
@@ -8,7 +8,7 @@ Formula=(MeasureAudioRaw0*#multi6#+MeasureAudioRaw0*#multi5#+MeasureAudioRaw0*#m
 AverageSize=#AverageSize#
 [MeasureAudioSmoothed2]
 Measure=Calc
-Formula=(MeasureAudioRaw0*#multi6#+MeasureAudioRaw0*#multi5#+MeasureAudioRaw0*#multi4#+MeasureAudioRaw0*#multi3#+MeasureAudioRaw0*#multi2#+MeasureAudioRaw1*#multi1#+MeasureAudioRaw3*#multi2#+MeasureAudioRaw5*#multi3#+MeasureAudioRaw7*#multi4#+MeasureAudioRaw9*#multi5#+MeasureAudioRaw11*#multi6#+MeasureAudioRaw1*#multi6#+MeasureAudioRaw1*#multi5#+MeasureAudioRaw1*#multi4#+MeasureAudioRaw1*#multi3#+MeasureAudioRaw1*#multi2#+MeasureAudioRaw3*#multi1#+MeasureAudioRaw5*#multi2#+MeasureAudioRaw7*#multi3#+MeasureAudioRaw9*#multi4#+MeasureAudioRaw11*#multi5#+MeasureAudioRaw13*#multi6#)/2/#Divider#+#MinBarValue#
+Formula=(MeasureAudioRaw0*#multi6#+MeasureAudioRaw0*#multi5#+MeasureAudioRaw0*#multi4#+MeasureAudioRaw0*#multi3#+MeasureAudioRaw0*#multi2#+MeasureAudioRaw1*#multi1#+MeasureAudioRaw3*#multi2#+MeasureAudioRaw5*#multi3#+MeasureAudioRaw7*#multi4#+MeasureAudioRaw9*#multi5#+MeasureAudioRaw11*#multi6#+MeasureAudioRaw0*#multi6#+MeasureAudioRaw0*#multi5#+MeasureAudioRaw0*#multi4#+MeasureAudioRaw0*#multi3#+MeasureAudioRaw1*#multi2#+MeasureAudioRaw3*#multi1#+MeasureAudioRaw5*#multi2#+MeasureAudioRaw7*#multi3#+MeasureAudioRaw9*#multi4#+MeasureAudioRaw11*#multi5#+MeasureAudioRaw13*#multi6#)/2/#Divider#+#MinBarValue#
 AverageSize=#AverageSize#
 [MeasureAudioSmoothed3]
 Measure=Calc
@@ -16,7 +16,7 @@ Formula=(MeasureAudioRaw0*#multi6#+MeasureAudioRaw0*#multi5#+MeasureAudioRaw0*#m
 AverageSize=#AverageSize#
 [MeasureAudioSmoothed4]
 Measure=Calc
-Formula=(MeasureAudioRaw0*#multi6#+MeasureAudioRaw0*#multi5#+MeasureAudioRaw0*#multi4#+MeasureAudioRaw0*#multi3#+MeasureAudioRaw1*#multi2#+MeasureAudioRaw3*#multi1#+MeasureAudioRaw5*#multi2#+MeasureAudioRaw7*#multi3#+MeasureAudioRaw9*#multi4#+MeasureAudioRaw11*#multi5#+MeasureAudioRaw13*#multi6#+MeasureAudioRaw1*#multi6#+MeasureAudioRaw1*#multi5#+MeasureAudioRaw1*#multi4#+MeasureAudioRaw1*#multi3#+MeasureAudioRaw3*#multi2#+MeasureAudioRaw5*#multi1#+MeasureAudioRaw7*#multi2#+MeasureAudioRaw9*#multi3#+MeasureAudioRaw11*#multi4#+MeasureAudioRaw13*#multi5#+MeasureAudioRaw15*#multi6#)/2/#Divider#+#MinBarValue#
+Formula=(MeasureAudioRaw0*#multi6#+MeasureAudioRaw0*#multi5#+MeasureAudioRaw0*#multi4#+MeasureAudioRaw0*#multi3#+MeasureAudioRaw1*#multi2#+MeasureAudioRaw3*#multi1#+MeasureAudioRaw5*#multi2#+MeasureAudioRaw7*#multi3#+MeasureAudioRaw9*#multi4#+MeasureAudioRaw11*#multi5#+MeasureAudioRaw13*#multi6#+MeasureAudioRaw0*#multi6#+MeasureAudioRaw0*#multi5#+MeasureAudioRaw0*#multi4#+MeasureAudioRaw1*#multi3#+MeasureAudioRaw3*#multi2#+MeasureAudioRaw5*#multi1#+MeasureAudioRaw7*#multi2#+MeasureAudioRaw9*#multi3#+MeasureAudioRaw11*#multi4#+MeasureAudioRaw13*#multi5#+MeasureAudioRaw15*#multi6#)/2/#Divider#+#MinBarValue#
 AverageSize=#AverageSize#
 [MeasureAudioSmoothed5]
 Measure=Calc
@@ -24,7 +24,7 @@ Formula=(MeasureAudioRaw0*#multi6#+MeasureAudioRaw0*#multi5#+MeasureAudioRaw0*#m
 AverageSize=#AverageSize#
 [MeasureAudioSmoothed6]
 Measure=Calc
-Formula=(MeasureAudioRaw0*#multi6#+MeasureAudioRaw0*#multi5#+MeasureAudioRaw0*#multi4#+MeasureAudioRaw1*#multi3#+MeasureAudioRaw3*#multi2#+MeasureAudioRaw5*#multi1#+MeasureAudioRaw7*#multi2#+MeasureAudioRaw9*#multi3#+MeasureAudioRaw11*#multi4#+MeasureAudioRaw13*#multi5#+MeasureAudioRaw15*#multi6#+MeasureAudioRaw1*#multi6#+MeasureAudioRaw1*#multi5#+MeasureAudioRaw1*#multi4#+MeasureAudioRaw3*#multi3#+MeasureAudioRaw5*#multi2#+MeasureAudioRaw7*#multi1#+MeasureAudioRaw9*#multi2#+MeasureAudioRaw11*#multi3#+MeasureAudioRaw13*#multi4#+MeasureAudioRaw15*#multi5#+MeasureAudioRaw17*#multi6#)/2/#Divider#+#MinBarValue#
+Formula=(MeasureAudioRaw0*#multi6#+MeasureAudioRaw0*#multi5#+MeasureAudioRaw0*#multi4#+MeasureAudioRaw1*#multi3#+MeasureAudioRaw3*#multi2#+MeasureAudioRaw5*#multi1#+MeasureAudioRaw7*#multi2#+MeasureAudioRaw9*#multi3#+MeasureAudioRaw11*#multi4#+MeasureAudioRaw13*#multi5#+MeasureAudioRaw15*#multi6#+MeasureAudioRaw0*#multi6#+MeasureAudioRaw0*#multi5#+MeasureAudioRaw1*#multi4#+MeasureAudioRaw3*#multi3#+MeasureAudioRaw5*#multi2#+MeasureAudioRaw7*#multi1#+MeasureAudioRaw9*#multi2#+MeasureAudioRaw11*#multi3#+MeasureAudioRaw13*#multi4#+MeasureAudioRaw15*#multi5#+MeasureAudioRaw17*#multi6#)/2/#Divider#+#MinBarValue#
 AverageSize=#AverageSize#
 [MeasureAudioSmoothed7]
 Measure=Calc
@@ -32,7 +32,7 @@ Formula=(MeasureAudioRaw0*#multi6#+MeasureAudioRaw0*#multi5#+MeasureAudioRaw1*#m
 AverageSize=#AverageSize#
 [MeasureAudioSmoothed8]
 Measure=Calc
-Formula=(MeasureAudioRaw0*#multi6#+MeasureAudioRaw0*#multi5#+MeasureAudioRaw1*#multi4#+MeasureAudioRaw3*#multi3#+MeasureAudioRaw5*#multi2#+MeasureAudioRaw7*#multi1#+MeasureAudioRaw9*#multi2#+MeasureAudioRaw11*#multi3#+MeasureAudioRaw13*#multi4#+MeasureAudioRaw15*#multi5#+MeasureAudioRaw17*#multi6#+MeasureAudioRaw1*#multi6#+MeasureAudioRaw1*#multi5#+MeasureAudioRaw3*#multi4#+MeasureAudioRaw5*#multi3#+MeasureAudioRaw7*#multi2#+MeasureAudioRaw9*#multi1#+MeasureAudioRaw11*#multi2#+MeasureAudioRaw13*#multi3#+MeasureAudioRaw15*#multi4#+MeasureAudioRaw17*#multi5#+MeasureAudioRaw19*#multi6#)/2/#Divider#+#MinBarValue#
+Formula=(MeasureAudioRaw0*#multi6#+MeasureAudioRaw0*#multi5#+MeasureAudioRaw1*#multi4#+MeasureAudioRaw3*#multi3#+MeasureAudioRaw5*#multi2#+MeasureAudioRaw7*#multi1#+MeasureAudioRaw9*#multi2#+MeasureAudioRaw11*#multi3#+MeasureAudioRaw13*#multi4#+MeasureAudioRaw15*#multi5#+MeasureAudioRaw17*#multi6#+MeasureAudioRaw0*#multi6#+MeasureAudioRaw1*#multi5#+MeasureAudioRaw3*#multi4#+MeasureAudioRaw5*#multi3#+MeasureAudioRaw7*#multi2#+MeasureAudioRaw9*#multi1#+MeasureAudioRaw11*#multi2#+MeasureAudioRaw13*#multi3#+MeasureAudioRaw15*#multi4#+MeasureAudioRaw17*#multi5#+MeasureAudioRaw19*#multi6#)/2/#Divider#+#MinBarValue#
 AverageSize=#AverageSize#
 [MeasureAudioSmoothed9]
 Measure=Calc
