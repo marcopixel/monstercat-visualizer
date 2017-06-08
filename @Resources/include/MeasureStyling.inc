@@ -124,3 +124,4 @@ IfTrueAction5=[!SetVariable Color "#GenreColor#"][!SetVariable TextColor "#Genre
 IfCondition6= (#EnableDynamicColors# = 2) && (#DisableDynamicFontColors# = 0)
 IfTrueAction6=[!SetVariable Color "[MeasureCoverColor]"][!SetVariable TextColor "[MeasureCoverColor]"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
 UpdateDivider=-1
+DynamicVariables=1
