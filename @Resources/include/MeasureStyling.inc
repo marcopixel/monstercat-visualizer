@@ -16,6 +16,8 @@ IfMatch=Spotify
 IfMatchAction=[!WriteKeyValue Variables MPMode Spotify "#@#variables.ini"][!DisableMeasure MeasureGenre]
 IfMatch2=GPMDP
 IfMatchAction2=[!WriteKeyValue Variables MPMode GPMDP "#@#variables.ini"][!DisableMeasure MeasureGenre]
+IfMatch3=Web
+IfMatchAction3=[!WriteKeyValue Variables MPMode Web "#@#variables.ini"][!DisableMeasure MeasureGenre]
 IfNotMatchAction=[!WriteKeyValue Variables MPMode NowPlaying "#@#variables.ini"]
 UpdateDivider=-1
 
