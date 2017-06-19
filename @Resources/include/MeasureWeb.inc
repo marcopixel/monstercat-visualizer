@@ -8,7 +8,7 @@ UpdateDivider=10
 Measure=Plugin
 Plugin=WebNowPlaying
 PlayerType=STATE
-Substitute="0":"Play","1":"Pause","2":"Play"
+Substitute="0":"Play","1":"Pause","2":"Play","3":"Replay"
 
 [MeasureTrack]
 Measure=Plugin
@@ -28,6 +28,8 @@ UpdateDivider=100
 Measure=Plugin
 Plugin=WebNowPlaying
 PlayerType=COVER
+DefaultPath=#@#images\nocover.png
+CoverPath=#@#images\coverWeb.png
 Substitute="":"#@#images\nocover.png"
 UpdateDivider=50
 
