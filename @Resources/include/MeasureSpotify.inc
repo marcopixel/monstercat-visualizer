@@ -52,7 +52,6 @@ UpdateDivider=10
 Measure=Plugin
 Plugin=SpotifyPlugin
 Type=Progress
-UpdateDivider=10
 
 [MeasureProgress]
 Measure=Calc
