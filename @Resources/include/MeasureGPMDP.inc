@@ -44,7 +44,6 @@ UpdateDivider=10
 Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=Duration
-UpdateDivider=10
 
 [MeasureProgress]
 Measure=Plugin

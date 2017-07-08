@@ -1,67 +1,58 @@
 [MeasureState]
 Measure=Plugin
-Plugin=NowPlaying
-PlayerName=#PlayerName#
+Plugin=WebNowPlaying
 PlayerType=State
 UpdateDivider=10
 
 [MeasureStateButton]
 Measure=Plugin
-Plugin=NowPlaying
-PlayerName=#PlayerName#
+Plugin=WebNowPlaying
 PlayerType=STATE
-Substitute="0":"Play","1":"Pause","2":"Play"
+Substitute="0":"Play","1":"Pause","2":"Play","3":"Replay"
 
 [MeasureTrack]
 Measure=Plugin
-Plugin=NowPlaying
-PlayerName=#PlayerName#
+Plugin=WebNowPlaying
 PlayerType=TITLE
 Substitute="":"#NoTrackNameText#"
 UpdateDivider=100
 
 [MeasureArtist]
 Measure=Plugin
-Plugin=NowPlaying
-PlayerName=#PlayerName#
+Plugin=WebNowPlaying
 PlayerType=ARTIST
 Substitute="":"#NoArtistNameText#"
 UpdateDivider=100
 
 [MeasureCover]
 Measure=Plugin
-Plugin=NowPlaying
-PlayerName=#PlayerName#
+Plugin=WebNowPlaying
 PlayerType=COVER
+DefaultPath=#@#images\nocover.png
+CoverPath=#@#images\coverWeb.png
 Substitute="":"#@#images\nocover.png"
 UpdateDivider=50
 
 [MeasurePosition]
 Measure=Plugin
-Plugin=NowPlaying
-PlayerName=#PlayerName#
+Plugin=WebNowPlaying
 PlayerType=Position
 UpdateDivider=10
 
 [MeasureDuration]
 Measure=Plugin
-Plugin=NowPlaying
-PlayerName=#PlayerName#
+Plugin=WebNowPlaying
 PlayerType=DURATION
 UpdateDivider=10
 
 [MeasureProgress]
 Measure=Plugin
-Plugin=NowPlaying
-PlayerName=#PlayerName#
+Plugin=WebNowPlaying
 PlayerType=Progress
-UpdateDivider=10
 
-
-[MeasureAutoHideNowPlaying]
+[MeasureAutoHideWebNowPlaying]
 Measure=Plugin
-Plugin=NowPlaying
-PlayerName=#PlayerName#
+Plugin=WebNowPlaying
 PlayerType=STATE
 IfBelowValue=1
 IfBelowAction=[!HideFade][!HideFade "#ROOTCONFIG#\Song Information"]
