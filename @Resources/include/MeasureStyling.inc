@@ -21,6 +21,15 @@ IfMatchAction3=[!WriteKeyValue Variables MPMode Web "#@#variables.ini"][!Disable
 IfNotMatchAction=[!WriteKeyValue Variables MPMode NowPlaying "#@#variables.ini"]
 UpdateDivider=-1
 
+[MeasureInvertVisualizer]
+Measure=Calc
+Formula=#InvertVisualizer#
+IfEqualValue=1
+IfEqualAction=[!SetOption ScriptFactoryBars Value3 "MeasureAudioSmoothed{#BarCount# - %% - 1}"][!UpdateMeasure "ScriptFactoryBars"][!CommandMeasure "ScriptFactoryBars" "Initialize()"]
+IfBelowValue=1
+IfBelowAction=[!SetOption ScriptFactoryBars Value3 "MeasureAudioSmoothed{%%}"][!UpdateMeasure "ScriptFactoryBars"][!CommandMeasure "ScriptFactoryBars" "Initialize()"]
+UpdateDivider=-1
+
 [MeasureClipSongInformation]
 Measure=Calc
 Formula=#ClipSongInformation#
