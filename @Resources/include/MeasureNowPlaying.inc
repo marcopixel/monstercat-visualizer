@@ -55,6 +55,8 @@ Measure=Plugin
 Plugin=NowPlaying
 PlayerName=#PlayerName#
 PlayerType=Progress
+UpdateDivider=10
+
 
 [MeasureAutoHideNowPlaying]
 Measure=Plugin
