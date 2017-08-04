@@ -9,8 +9,9 @@ function Initialize()
 
   -- Set options for each config
   local barHeight = SKIN:ParseFormula(SKIN:GetVariable("BarHeight"))
-  local barWidth, barGap = SKIN:ParseFormula(SKIN:GetVariable("BarWidth")) * SKIN:ParseFormula(SKIN:GetVariable("ScaleVisualizer")), SKIN:ParseFormula(SKIN:GetVariable("BarGap")) * SKIN:ParseFormula(SKIN:GetVariable("ScaleVisualizer"))
-  local offset = math.ceil(barWidth) + math.ceil(barGap)
+  local barWidth = SKIN:ParseFormula(SKIN:GetVariable("BarWidth")) * SKIN:ParseFormula(SKIN:GetVariable("ScaleVisualizer"))
+  local barGap = SKIN:ParseFormula(SKIN:GetVariable("BarGap")) * SKIN:ParseFormula(SKIN:GetVariable("ScaleVisualizer"))
+  local offset = math.floor(barWidth + barGap)
   local angle = SKIN:ParseFormula(SKIN:GetVariable("Angle"))
   local meterName, lowerLimit, upperLimit = {}, 1, SKIN:ParseFormula(SKIN:GetVariable("BarCount"))
 
@@ -35,6 +36,9 @@ function Initialize()
       SKIN:Bang("!SetOption", meterName[i], "X", offset * (i - lowerLimit), config)
     end
   end
+  
+  SKIN:Bang("!SetOption", "Width", "Formula", math.ceil(offset * (upperLimit) - barGap), config)
+  
 
   if angle > 0 then
 	SKIN:Bang("!SetOptionGroup", "GroupProgressBar", "Hidden", 1, config)

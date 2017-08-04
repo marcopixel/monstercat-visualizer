@@ -1,6 +1,6 @@
 [Width]
 Measure=Calc
-Formula=(((#BarGap#*#ScaleVisualizer#)+(#BarWidth#*#ScaleVisualizer#))*#BarCount#)+(5*#ScaleVisualizer#)
+Formula=(((#BarGap#*#ScaleVisualizer#*#BarCount#)+(#BarWidth#*#ScaleVisualizer#*#BarCount#)) - (#BarGap#*#ScaleVisualizer#))
 
 [Height]
 Measure=Calc
