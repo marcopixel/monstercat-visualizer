@@ -35,6 +35,8 @@ Measure=Calc
 Formula=#ClipSongInformation#
 IfEqualValue=1
 IfEqualAction=[!SetOption MeterArtist W "(#BarWidth#+#BarGap#)*(#BarCount#-12)*#ScaleVisualizer#"][!SetOption MeterTrack W "(#BarWidth#+#BarGap#)*(#BarCount#-12)*#ScaleVisualizer#-(8*#ScaleSongInformation#)"]
+IfBelowValue=1
+IfBelowAction=[!SetOption MeterArtist ClipString 2]
 UpdateDivider=-1
 
 [MeasureAddTextBorder]
