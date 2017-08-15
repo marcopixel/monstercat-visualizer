@@ -1,55 +1,55 @@
 [MeasureAudioSmoothed0]
 Measure=Calc
-Formula=(MeasureAudioRaw0+MeasureAudioRaw0+MeasureAudioRaw1)/12+#MinBarValue#
+Formula=(MeasureAudioRaw0+MeasureAudioRaw0+MeasureAudioRaw1)/8+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed0 Formula "0.005"]
 IfFalseAction=[!EnableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed0 Formula "(MeasureAudioRaw0+MeasureAudioRaw0+MeasureAudioRaw1)/12+#MinBarValue#"]
 [MeasureAudioSmoothed1]
 Measure=Calc
-Formula=(MeasureAudioRaw0+MeasureAudioRaw1+MeasureAudioRaw2)/12+#MinBarValue#
+Formula=(MeasureAudioRaw0+MeasureAudioRaw1+MeasureAudioRaw2)/7+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed1 Formula "0.005"]
 IfFalseAction=[!EnableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed1 Formula "(MeasureAudioRaw0+MeasureAudioRaw1+MeasureAudioRaw2)/12+#MinBarValue#"]
 [MeasureAudioSmoothed2]
 Measure=Calc
-Formula=(MeasureAudioRaw1+MeasureAudioRaw2+MeasureAudioRaw3)/10+#MinBarValue#
+Formula=(MeasureAudioRaw1+MeasureAudioRaw2+MeasureAudioRaw3)/6+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed2 Formula "0.005"]
 IfFalseAction=[!EnableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed2 Formula "(MeasureAudioRaw1+MeasureAudioRaw2+MeasureAudioRaw3)/10+#MinBarValue#"]
 [MeasureAudioSmoothed3]
 Measure=Calc
-Formula=(MeasureAudioRaw2+MeasureAudioRaw3+MeasureAudioRaw4)/8+#MinBarValue#
+Formula=(MeasureAudioRaw2+MeasureAudioRaw3+MeasureAudioRaw4)/5+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed3 Formula "0.005"]
 IfFalseAction=[!EnableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed3 Formula "(MeasureAudioRaw2+MeasureAudioRaw3+MeasureAudioRaw4)/8+#MinBarValue#"]
 [MeasureAudioSmoothed4]
 Measure=Calc
-Formula=(MeasureAudioRaw3+MeasureAudioRaw4+MeasureAudioRaw5)/7+#MinBarValue#
+Formula=(MeasureAudioRaw3+MeasureAudioRaw4+MeasureAudioRaw5)/4+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed4 Formula "0.005"]
 IfFalseAction=[!EnableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed4 Formula "(MeasureAudioRaw3+MeasureAudioRaw4+MeasureAudioRaw5)/7+#MinBarValue#"]
 [MeasureAudioSmoothed5]
 Measure=Calc
-Formula=(MeasureAudioRaw4+MeasureAudioRaw5+MeasureAudioRaw6)/6+#MinBarValue#
+Formula=(MeasureAudioRaw4+MeasureAudioRaw5+MeasureAudioRaw6)/3+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed5 Formula "0.005"]
 IfFalseAction=[!EnableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed5 Formula "(MeasureAudioRaw4+MeasureAudioRaw5+MeasureAudioRaw6)/6+#MinBarValue#"]
 [MeasureAudioSmoothed6]
 Measure=Calc
-Formula=(MeasureAudioRaw5+MeasureAudioRaw6+MeasureAudioRaw7)/5+#MinBarValue#
+Formula=(MeasureAudioRaw5+MeasureAudioRaw6+MeasureAudioRaw7)/3+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed6 Formula "0.005"]
 IfFalseAction=[!EnableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed6 Formula "(MeasureAudioRaw5+MeasureAudioRaw6+MeasureAudioRaw7)/5+#MinBarValue#"]
 [MeasureAudioSmoothed7]
 Measure=Calc
-Formula=(MeasureAudioRaw6+MeasureAudioRaw7+MeasureAudioRaw8)/4+#MinBarValue#
+Formula=(MeasureAudioRaw6+MeasureAudioRaw7+MeasureAudioRaw8)/3+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed7 Formula "0.005"]
@@ -63,28 +63,28 @@ IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoo
 IfFalseAction=[!EnableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed8 Formula "(MeasureAudioRaw7+MeasureAudioRaw8+MeasureAudioRaw9)/3+#MinBarValue#"]
 [MeasureAudioSmoothed9]
 Measure=Calc
-Formula=(MeasureAudioRaw8+MeasureAudioRaw9+MeasureAudioRaw10)/2+#MinBarValue#
+Formula=(MeasureAudioRaw8+MeasureAudioRaw9+MeasureAudioRaw10)/3+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed9 Formula "0.005"]
 IfFalseAction=[!EnableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed9 Formula "(MeasureAudioRaw8+MeasureAudioRaw9+MeasureAudioRaw10)/2+#MinBarValue#"]
 [MeasureAudioSmoothed10]
 Measure=Calc
-Formula=(MeasureAudioRaw9+MeasureAudioRaw10+MeasureAudioRaw11)/1.8+#MinBarValue#
+Formula=(MeasureAudioRaw9+MeasureAudioRaw10+MeasureAudioRaw11)/3+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed10 Formula "0.005"]
 IfFalseAction=[!EnableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed10 Formula "(MeasureAudioRaw9+MeasureAudioRaw10+MeasureAudioRaw11)/1.8+#MinBarValue#"]
 [MeasureAudioSmoothed11]
 Measure=Calc
-Formula=(MeasureAudioRaw10+MeasureAudioRaw11+MeasureAudioRaw12)/2+#MinBarValue#
+Formula=(MeasureAudioRaw10+MeasureAudioRaw11+MeasureAudioRaw12)/3+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed11 Formula "0.005"]
 IfFalseAction=[!EnableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed11 Formula "(MeasureAudioRaw10+MeasureAudioRaw11+MeasureAudioRaw12)/2+#MinBarValue#"]
 [MeasureAudioSmoothed12]
 Measure=Calc
-Formula=(MeasureAudioRaw11+MeasureAudioRaw12+MeasureAudioRaw13)/2.5+#MinBarValue#
+Formula=(MeasureAudioRaw11+MeasureAudioRaw12+MeasureAudioRaw13)/3+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed12 Formula "0.005"]
@@ -112,14 +112,14 @@ IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoo
 IfFalseAction=[!EnableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed15 Formula "(MeasureAudioRaw14+MeasureAudioRaw15+MeasureAudioRaw16)/3+#MinBarValue#"]
 [MeasureAudioSmoothed16]
 Measure=Calc
-Formula=(MeasureAudioRaw15+MeasureAudioRaw16+MeasureAudioRaw17)/3.25+#MinBarValue#
+Formula=(MeasureAudioRaw15+MeasureAudioRaw16+MeasureAudioRaw17)/3+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed16 Formula "0.005"]
 IfFalseAction=[!EnableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed16 Formula "(MeasureAudioRaw15+MeasureAudioRaw16+MeasureAudioRaw17)/3.25+#MinBarValue#"]
 [MeasureAudioSmoothed17]
 Measure=Calc
-Formula=(MeasureAudioRaw16+MeasureAudioRaw17+MeasureAudioRaw18)/3.25+#MinBarValue#
+Formula=(MeasureAudioRaw16+MeasureAudioRaw17+MeasureAudioRaw18)/3+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed17 Formula "0.005"]
@@ -147,63 +147,63 @@ IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoo
 IfFalseAction=[!EnableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed20 Formula "(MeasureAudioRaw19+MeasureAudioRaw20+MeasureAudioRaw21)/3+#MinBarValue#"]
 [MeasureAudioSmoothed21]
 Measure=Calc
-Formula=(MeasureAudioRaw20+MeasureAudioRaw21+MeasureAudioRaw22)/2.5+#MinBarValue#
+Formula=(MeasureAudioRaw20+MeasureAudioRaw21+MeasureAudioRaw22)/3+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed21 Formula "0.005"]
 IfFalseAction=[!EnableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed21 Formula "(MeasureAudioRaw20+MeasureAudioRaw21+MeasureAudioRaw22)/2.5+#MinBarValue#"]
 [MeasureAudioSmoothed22]
 Measure=Calc
-Formula=(MeasureAudioRaw21+MeasureAudioRaw22+MeasureAudioRaw23)/2+#MinBarValue#
+Formula=(MeasureAudioRaw21+MeasureAudioRaw22+MeasureAudioRaw23)/3+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed22 Formula "0.005"]
 IfFalseAction=[!EnableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed22 Formula "(MeasureAudioRaw21+MeasureAudioRaw22+MeasureAudioRaw23)/2+#MinBarValue#"]
 [MeasureAudioSmoothed23]
 Measure=Calc
-Formula=(MeasureAudioRaw22+MeasureAudioRaw23+MeasureAudioRaw24)/1.8+#MinBarValue#
+Formula=(MeasureAudioRaw22+MeasureAudioRaw23+MeasureAudioRaw24)/3+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed23 Formula "0.005"]
 IfFalseAction=[!EnableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed23 Formula "(MeasureAudioRaw22+MeasureAudioRaw23+MeasureAudioRaw24)/1.8+#MinBarValue#"]
 [MeasureAudioSmoothed24]
 Measure=Calc
-Formula=(MeasureAudioRaw23+MeasureAudioRaw24+MeasureAudioRaw25)/1.8+#MinBarValue#
+Formula=(MeasureAudioRaw23+MeasureAudioRaw24+MeasureAudioRaw25)/3+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed24 Formula "0.005"]
 IfFalseAction=[!EnableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed24 Formula "(MeasureAudioRaw23+MeasureAudioRaw24+MeasureAudioRaw25)/1.8+#MinBarValue#"]
 [MeasureAudioSmoothed25]
 Measure=Calc
-Formula=(MeasureAudioRaw24+MeasureAudioRaw25+MeasureAudioRaw26)/1.8+#MinBarValue#
+Formula=(MeasureAudioRaw24+MeasureAudioRaw25+MeasureAudioRaw26)/3+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed25 Formula "0.005"]
 IfFalseAction=[!EnableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed25 Formula "(MeasureAudioRaw24+MeasureAudioRaw25+MeasureAudioRaw26)/1.8+#MinBarValue#"]
 [MeasureAudioSmoothed26]
 Measure=Calc
-Formula=(MeasureAudioRaw25+MeasureAudioRaw26+MeasureAudioRaw27)/1.8+#MinBarValue#
+Formula=(MeasureAudioRaw25+MeasureAudioRaw26+MeasureAudioRaw27)/3+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed26 Formula "0.005"]
 IfFalseAction=[!EnableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed26 Formula "(MeasureAudioRaw25+MeasureAudioRaw26+MeasureAudioRaw27)/1.8+#MinBarValue#"]
 [MeasureAudioSmoothed27]
 Measure=Calc
-Formula=(MeasureAudioRaw26+MeasureAudioRaw27+MeasureAudioRaw28)/1.8+#MinBarValue#
+Formula=(MeasureAudioRaw26+MeasureAudioRaw27+MeasureAudioRaw28)/3+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed27 Formula "0.005"]
 IfFalseAction=[!EnableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed27 Formula "(MeasureAudioRaw26+MeasureAudioRaw27+MeasureAudioRaw28)/1.8+#MinBarValue#"]
 [MeasureAudioSmoothed28]
 Measure=Calc
-Formula=(MeasureAudioRaw27+MeasureAudioRaw28+MeasureAudioRaw29)/1.8+#MinBarValue#
+Formula=(MeasureAudioRaw27+MeasureAudioRaw28+MeasureAudioRaw29)/2.5+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed28 Formula "0.005"]
 IfFalseAction=[!EnableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed28 Formula "(MeasureAudioRaw27+MeasureAudioRaw28+MeasureAudioRaw29)/1.8+#MinBarValue#"]
 [MeasureAudioSmoothed29]
 Measure=Calc
-Formula=(MeasureAudioRaw28+MeasureAudioRaw29+MeasureAudioRaw30)/1.8+#MinBarValue#
+Formula=(MeasureAudioRaw28+MeasureAudioRaw29+MeasureAudioRaw30)/2+#MinBarValue#
 AverageSize=#AverageSize#
 IfCondition=(#DisableAutoMute# = 0) && (MeasureState <> 1)
 IfTrueAction=[!DisableMeasureGroup RawAudioMeasures][!SetOption MeasureAudioSmoothed29 Formula "0.005"]
