@@ -69,7 +69,7 @@ You can also request new features and help them develop by joining the discussio
 
 ### Credits
 
-- **Rainmeter Skin** - MarcoPixel
+- **Rainmeter Skin** - **[@marcopixel](https://github.com/marcopixel) & [@tjhrulz](https://github.com/tjhrulz)**
 - **AudioLevel Plugin (visualizer)** - **[@dcgrace](https://github.com/dcgrace/AudioLevel)**
 - **Spotify Plugin** - **[.raptor](https://forum.rainmeter.net/viewtopic.php?t=17077)** from the Rainmeter Forums
 - **Google Play Music Desktop Player Plugin** - **[@tjhrulz](https://github.com/tjhrulz/GPMDP-Plugin)**
