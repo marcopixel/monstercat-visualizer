@@ -9,6 +9,16 @@ IfAboveValue=1
 IfAboveAction=[!DisableMeasure MeasureGenre][!EnableMeasure MeasureGetCoverColor][!EnableMeasure MeasureCoverColor]
 UpdateDivider=-1
 
+[MeasureEnableDropShadow]
+Measure=Calc
+Formula=#EnableDropShadow#
+IfBelowValue=1
+IfBelowAction=[!HideMeterGroup GroupShadowBars][!HideMeter MeterCoverDropShadow][!SetVariable DropShadowColor "0,0,0,0"]
+IfEqualAction=[!ShowMeterGroup GroupShadowBars][!ShowMeter MeterCoverDropShadow][!SetVariable DropShadowColor #*DropShadowColor*#]
+IfAboveValue=1
+IfAboveAction=[!ShowMeterGroup GroupShadowBars][!ShowMeter MeterCoverDropShadow][!SetVariable DropShadowColor #*DropShadowColor*#]
+UpdateDivider=-1
+
 [MeasureSetMediaPlayer]
 Measure=String
 String=#PlayerName#
