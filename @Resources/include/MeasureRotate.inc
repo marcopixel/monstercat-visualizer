@@ -1,6 +1,6 @@
 [Width]
 Measure=Calc
-Formula=(((#BarGap#*#ScaleVisualizer#*#BarCount#)+(#BarWidth#*#ScaleVisualizer#*#BarCount#)) - (#BarGap#*#ScaleVisualizer#))
+Formula=(#SkinWidth#)
 
 [Height]
 Measure=Calc
