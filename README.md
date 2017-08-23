@@ -18,8 +18,9 @@ Supports all major media players, including full Spotify (thanks to **[.raptor](
 - Genre-based colors (AIMP, CAD, iTunes, WMP and Winamp)
 - Cover-based colors (All supported players)
 - Support for all major media players
-- Full Spotify support
-- Full Google Play Music Desktop Player support
+- Full Spotify (Desktop & Web Player) support
+- Full Google Play Music Desktop Player & Web Player support
+- Full Youtube, Soundcloud, and other web music players
 - Media controls & progress bar
 - Settings skin for easier customization/configuration
 - Hide skin when media player is not running
@@ -49,6 +50,8 @@ Supports all major media players, including full Spotify (thanks to **[.raptor](
 
 &nbsp;&nbsp;&nbsp;**2.**  Go to **.installer\plugins** and then move the 32 or 64-bit plugins (depending on your system) to &nbsp;&nbsp;&nbsp;**AppData\Roaming\Rainmeter\Plugins**.
 
+&nbsp;&nbsp;&nbsp;**2a.**  If you plan to use WebNowPlaying install either the [Chrome](https://chrome.google.com/webstore/detail/webnowplaying-companion/jfakgfcdgpghbbefmdfjkbdlibjgnbli) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/webnowplaying-companion/) plugins
+
 &nbsp;&nbsp;&nbsp;**3.**  Launch Rainmeter and right-click the tray icon, press Skins and go to **Monstercat-Visualizer** and open &nbsp;&nbsp;&nbsp;**Settings\intro\intro.ini**.
 
 &nbsp;&nbsp;&nbsp;**4.**  You're done! Enjoy your new desktop visualizer!
@@ -73,6 +76,7 @@ You can also request new features and help them develop by joining the discussio
 - **AudioLevel Plugin (visualizer)** - **[@dcgrace](https://github.com/dcgrace/AudioLevel)**
 - **Spotify Plugin** - **[.raptor](https://forum.rainmeter.net/viewtopic.php?t=17077)** from the Rainmeter Forums
 - **Google Play Music Desktop Player Plugin** - **[@tjhrulz](https://github.com/tjhrulz/GPMDP-Plugin)**
+- **Web Now Playing Plugin** - **[@tjhrulz](https://github.com/tjhrulz/WebNowPlaying)**
 - **Nexa Font** - FontFabric (thanks to **[RekaVM](http://rekavm.deviantart.com/)** for showing me the fonts)
 - **Media controls icons** - Material Design icons by Google (https://material.io/icons/)
 - **Monstercat 021 Artwork (used in the installer)** - petirep 
