@@ -35,9 +35,9 @@ UpdateDivider=-1
 Measure=Calc
 Formula=#InvertVisualizer#
 IfEqualValue=1
-IfEqualAction=[!SetOption ScriptFactoryBars Value3 "MeasureAudioSmoothed{#BarCount# - %% - 1}"][!UpdateMeasure "ScriptFactoryBars"][!CommandMeasure "ScriptFactoryBars" "Initialize()"]
+IfEqualAction=[!SetOption ScriptFactoryBars Value3 "MeasureAudioSmoothed{#BarCount# - %% - 1}"][!SetOption ScriptFactoryShadowBars Value3 "MeasureAudioSmoothed{#BarCount# - %% - 1}"][!UpdateMeasure "ScriptFactoryBars"][!CommandMeasure "ScriptFactoryBars" "Initialize()"][!UpdateMeasure "ScriptFactoryShadowBars"][!CommandMeasure "ScriptFactoryShadowBars" "Initialize()"]
 IfBelowValue=1
-IfBelowAction=[!SetOption ScriptFactoryBars Value3 "MeasureAudioSmoothed{%%}"][!UpdateMeasure "ScriptFactoryBars"][!CommandMeasure "ScriptFactoryBars" "Initialize()"]
+IfBelowAction=[!SetOption ScriptFactoryBars Value3 "MeasureAudioSmoothed{%%}"][!SetOption ScriptFactoryShadowBars Value3 "MeasureAudioSmoothed{%%}"][!UpdateMeasure "ScriptFactoryBars"][!UpdateMeasure "ScriptFactoryShadowBars"][!CommandMeasure "ScriptFactoryBars" "Initialize()"][!CommandMeasure "ScriptFactoryShadowBars" "Initialize()"]
 UpdateDivider=-1
 
 [MeasureClipSongInformation]
