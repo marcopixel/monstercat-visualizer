@@ -53,7 +53,7 @@ PlayerType=Progress
 [MeasureAutoHideWebNowPlaying]
 Measure=Plugin
 Plugin=WebNowPlaying
-PlayerType=STATE
+PlayerType=Status
 IfBelowValue=1
 IfBelowAction=[!HideFade][!HideFade "#ROOTCONFIG#\Song Information"]
 IfEqualValue=1
