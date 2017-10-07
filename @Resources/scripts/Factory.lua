@@ -1,4 +1,4 @@
--- @author Malody Hoe / GitHub: madhoe / Twitter: maddhoexD
+-- @author undefinist / www.undefinist.com
 -- Structure of Script Measure:
 ---- IncFile=
 ---- Number=
