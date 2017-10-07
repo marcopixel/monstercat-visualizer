@@ -1,4 +1,4 @@
--- @author Malody Hoe / GitHub: madhoe / Twitter: maddhoexD
+-- @author undefinist / www.undefinist.com
 -- Add this after all incs!
 function Initialize()
 	if SELF:GetOption("Refreshed", "0") == "0" then
