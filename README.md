@@ -64,7 +64,7 @@ You can access the frequently asked questions and our troubleshooting guide in o
 
 ## Issues & feature requests
 
-If you still have issues or a bug, please report them [here](https://github.com/MarcoPixel/Monstercat-Visualizer/issues). Be sure to include details like the operating system, Rainmeter version and logs so we can help you as much as we can.
+If you still have issues or a bug, please report them [here](https://github.com/MarcoPixel/Monstercat-Visualizer/issues). Be sure to follow the existing template and fill out the necessary information, otherwise it will be closed without notice.
 
 You can also request new features and help them develop by joining the discussion. Just add the **request label** to your issue and we will have a look!
 
