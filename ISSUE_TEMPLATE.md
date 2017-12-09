@@ -1,14 +1,12 @@
-[This is an template for posting an issue on this repo, any issue not following the layout will be closed without notice.
+[This is an template for posting an issue on this repo, 
+any issue not following the layout will be closed without notice.
 Please remove or replace everything between two square brackets ( [ ] ) before posting your issue.]
-
 
 ### Description
 
 [Please explain your problem here, tell all the step you've taken and how you found the issue.]
 
-
 ### Versions
-
 
 [IMPORTANT: Please fill out the version numbers so we can properly look for your issue.]
 
