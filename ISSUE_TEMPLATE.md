@@ -1,6 +1,5 @@
-[This is an template for posting an issue on this repo, any issue not following the layout will be closed without notice.]
-
-**[Please remove or replace everything between two square brackets ( **[]** ) before posting your issue.]**
+[This is an template for posting an issue on this repo, any issue not following the layout will be closed without notice.
+Please remove or replace everything between two square brackets ( [ ] ) before posting your issue.]
 
 
 ### Description
