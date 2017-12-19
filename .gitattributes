@@ -17,3 +17,9 @@
 *.RTF	 diff=astextplain
 *.ini  diff=astextplain
 *.INI  diff=astextplain
+
+# Fix incorrect language encoding
+*.ini linguist-language=INI
+*.INI linguist-language=INI
+*.inc linguist-language=INI
+*.INC linguist-language=INI
