@@ -76,10 +76,10 @@ You can also request new features and help them develop by joining the discussio
 - **AudioLevel Plugin (visualizer)** - **[@dcgrace](https://github.com/dcgrace/AudioLevel)**
 - **Spotify Plugin** - **[@robertfrydenlund](https://github.com/RobertFrydenlund/SpotifyPlugin)**
 - **Google Play Music Desktop Player Plugin** - **[@tjhrulz](https://github.com/tjhrulz/GPMDP-Plugin)**
-- **Web Now Playing Plugin** - **[@tjhrulz](https://github.com/tjhrulz/WebNowPlaying)**
+- **WebNowPlaying Plugin** - **[@tjhrulz](https://github.com/tjhrulz/WebNowPlaying)**
 - **Nexa Font** - FontFabric (thanks to **[RekaVM](http://rekavm.deviantart.com/)** for showing me the fonts)
 - **Media controls icons** - Material Design icons by Google (https://material.io/icons/)
-- **Monstercat 021 Artwork (used in the installer)** - petirep 
+- **Monstercat 5 Year Anniversary artwork (used in the installer)** - Monstercat 
 - Thanks to **undefinist** for letting me use his factory code (made everything so much easier and cleaner)
 - Thanks to **[@alatsombath](https://github.com/alatsombath)** for letting me use his rotation and audio device picker code :thumbsup:
 - For bringing awesome music and artists to the community - Monstercat <3
