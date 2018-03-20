@@ -15,6 +15,7 @@ function Initialize()
   local offset = math.floor(barWidth + barGap)
   local angle = SKIN:ParseFormula(SKIN:GetVariable("Angle"))
   local meterName, meterShadow, lowerLimit, upperLimit = {}, {}, 1, SKIN:ParseFormula(SKIN:GetVariable("BarCount"))
+  local skinWidth = math.ceil(offset * (upperLimit) - barGap)
 
   -- Add group to MeterBars and then update them
   for i = lowerLimit, upperLimit do
@@ -46,7 +47,11 @@ function Initialize()
     end
   end
 
+  -- set width to measure
   SKIN:Bang("!SetOption", "Width", "Formula", math.ceil(offset * (upperLimit) - barGap), config)
+
+  -- write skin width to variables file
+  SKIN:Bang("!WriteKeyValue", "Variables", "SkinWidth", skinWidth, "#@#variables.ini")
 
   -- disable progress bar when angle is higher than 0
   if angle > 0 then
