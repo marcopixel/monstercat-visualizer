@@ -74,7 +74,7 @@ You can also request new features and help them develop by joining the discussio
 
 - **Rainmeter Skin** - **[@marcopixel](https://github.com/marcopixel) & [@tjhrulz](https://github.com/tjhrulz)**
 - **AudioLevel Plugin (visualizer)** - **[@dcgrace](https://github.com/dcgrace/AudioLevel)**
-- **Spotify Plugin** - **[.raptor](https://forum.rainmeter.net/viewtopic.php?t=17077)** from the Rainmeter Forums
+- **Spotify Plugin** - **[@robertfrydenlund](https://github.com/RobertFrydenlund/SpotifyPlugin)**
 - **Google Play Music Desktop Player Plugin** - **[@tjhrulz](https://github.com/tjhrulz/GPMDP-Plugin)**
 - **Web Now Playing Plugin** - **[@tjhrulz](https://github.com/tjhrulz/WebNowPlaying)**
 - **Nexa Font** - FontFabric (thanks to **[RekaVM](http://rekavm.deviantart.com/)** for showing me the fonts)
