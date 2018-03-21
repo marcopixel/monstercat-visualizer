@@ -15,8 +15,8 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
-*.ini  diff=astextplain
-*.INI  diff=astextplain
+*.ini  diff
+*.INI  diff
 
 # Fix incorrect language encoding
 *.ini linguist-language=INI
