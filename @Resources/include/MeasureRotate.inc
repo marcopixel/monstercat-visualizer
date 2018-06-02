@@ -1,26 +1,32 @@
 [Width]
 Measure=Calc
 Formula=(#SkinWidth#)
+Group=GroupMeasureRotate
 
 [Height]
 Measure=Calc
 Formula=(#BarHeight#)
+Group=GroupMeasureRotate
 
 [AbsSinWidth]
 Measure=Calc
 Formula=(Abs(Sin(#Angle#*PI/180)*Width))
+Group=GroupMeasureRotate
 
 [AbsCosWidth]
 Measure=Calc
 Formula=(Abs(Cos(#Angle#*PI/180)*Width))
+Group=GroupMeasureRotate
 
 [AbsSinHeight]
 Measure=Calc
 Formula=(Abs(Sin(#Angle#*PI/180)*Height))
+Group=GroupMeasureRotate
 
 [AbsCosHeight]
 Measure=Calc
 Formula=(Abs(Cos(#Angle#*PI/180)*Height))
+Group=GroupMeasureRotate
 
 ; The pivot point is always the top-left corner of the first meter
 ; The point of rotation (relative to the top-left corner of the skin window) is along the skin boundaries based on the angle
@@ -35,6 +41,7 @@ IfTrueAction3=[!SetOption MoveX Formula (AbsSinHeight+AbsCosWidth)][!UpdateMeasu
 IfCondition4=(((#Angle# > 135) && (#Angle# <= 180)) || ((#Angle# > 225) && (#Angle# <= 270)))
 IfTrueAction4=[!SetOption MoveX Formula (AbsCosWidth)][!UpdateMeasure MoveX]
 DynamicVariables=1
+Group=GroupMeasureRotate
 
 [MoveY]
 Measure=Calc
@@ -47,6 +54,7 @@ IfTrueAction3=[!SetOption MoveY Formula (AbsCosHeight)][!UpdateMeasure MoveY]
 IfCondition4=(((#Angle# > 225) && (#Angle# <= 270)) || ((#Angle# > 315) && (#Angle# < 360)))
 IfTrueAction4=[!SetOption MoveY Formula 0][!UpdateMeasure MoveY]
 DynamicVariables=1
+Group=GroupMeasureRotate
 
 ; 0 = X-axis, 1 = Y-axis
 [NearestAxis]
@@ -56,22 +64,26 @@ IfCondition=NearestAxis = 1
 IfTrueAction=[!WriteKeyValue Variables NearestAxis "1" "#@#Variables.ini"]
 IfFalseAction=[!WriteKeyValue Variables NearestAxis "0" "#@#Variables.ini"]
 DynamicVariables=1
+Group=GroupMeasureRotate
 
 ; Only antialias and set the matrix when the angle has changed
 [CheckRotation]
 Measure=Calc
 Formula=(((#Angle# = 0) || (#Angle# = 360)) ? 0 : 1)
+Group=GroupMeasureRotate
 
 ; Adjust rotation angle based on orientation
 [Angle]
 Measure=Calc
 Formula=(NearestAxis = 0 ? #Angle# : (#Angle# + 90))
+Group=GroupMeasureRotate
 
 [Matrix]
 Measure=String
 String="(Cos([Angle]*PI/180));(-Sin([Angle]*PI/180));(Sin([Angle]*PI/180));(Cos([Angle]*PI/180));[MoveX];[MoveY]"
 DynamicVariables=1
 OnUpdateAction=
+Group=GroupMeasureRotate
 
 ; Reveal the transformation by expanding the skin window through an invisible meter
 [BoundingBox]

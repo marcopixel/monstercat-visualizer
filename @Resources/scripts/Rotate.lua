@@ -76,6 +76,7 @@ function Initialize()
 
   -- Remove the OnUpdateAction from MeasureRotate.inc to remove log spam
   SKIN:Bang("!WriteKeyValue", "Matrix", "OnUpdateAction", "", "#@#include\\MeasureRotate.inc")
+  SKIN:Bang("!PauseMeasureGroup", "GroupMeasureRotate", config)
 
   -- Deactivate init skin
   SKIN:Bang("!DeactivateConfig")

@@ -1,61 +1,3 @@
-[MeasureSetDynamicColors]
-Measure=Calc
-Formula=#EnableDynamicColors#
-IfBelowValue=1
-IfBelowAction=[!DisableMeasure MeasureGenre][!DisableMeasure MeasureGetCoverColor][!DisableMeasure MeasureCoverColor]
-IfEqualValue=1
-IfEqualAction=[!EnableMeasure MeasureGenre][!DisableMeasure MeasureGetCoverColor][!DisableMeasure MeasureCoverColor]
-IfAboveValue=1
-IfAboveAction=[!DisableMeasure MeasureGenre][!EnableMeasure MeasureGetCoverColor][!EnableMeasure MeasureCoverColor]
-UpdateDivider=-1
-
-[MeasureEnableDropShadow]
-Measure=Calc
-Formula=#EnableDropShadow#
-IfBelowValue=1
-IfBelowAction=[!HideMeterGroup GroupShadowBars][!HideMeter MeterCoverDropShadow][!SetVariable DropShadowColor "0,0,0,0"]
-IfEqualAction=[!ShowMeterGroup GroupShadowBars][!ShowMeter MeterCoverDropShadow][!SetVariable DropShadowColor #*DropShadowColor*#]
-IfAboveValue=1
-IfAboveAction=[!ShowMeterGroup GroupShadowBars][!ShowMeter MeterCoverDropShadow][!SetVariable DropShadowColor #*DropShadowColor*#]
-UpdateDivider=-1
-
-[MeasureSetMediaPlayer]
-Measure=String
-String=#PlayerName#
-IfMatch=Spotify
-IfMatchAction=[!WriteKeyValue Variables MPMode Spotify "#@#variables.ini"][!DisableMeasure MeasureGenre]
-IfMatch2=GPMDP
-IfMatchAction2=[!WriteKeyValue Variables MPMode GPMDP "#@#variables.ini"][!DisableMeasure MeasureGenre]
-IfMatch3=Web
-IfMatchAction3=[!WriteKeyValue Variables MPMode Web "#@#variables.ini"][!DisableMeasure MeasureGenre]
-IfNotMatchAction=[!WriteKeyValue Variables MPMode NowPlaying "#@#variables.ini"]
-UpdateDivider=-1
-
-[MeasureInvertVisualizer]
-Measure=Calc
-Formula=#InvertVisualizer#
-IfEqualValue=1
-IfEqualAction=[!SetOption ScriptFactoryBars Value3 "MeasureAudioSmoothed{#BarCount# - %% - 1}"][!SetOption ScriptFactoryShadowBars Value3 "MeasureAudioSmoothed{#BarCount# - %% - 1}"][!UpdateMeasure "ScriptFactoryBars"][!CommandMeasure "ScriptFactoryBars" "Initialize()"][!UpdateMeasure "ScriptFactoryShadowBars"][!CommandMeasure "ScriptFactoryShadowBars" "Initialize()"]
-IfBelowValue=1
-IfBelowAction=[!SetOption ScriptFactoryBars Value3 "MeasureAudioSmoothed{%%}"][!SetOption ScriptFactoryShadowBars Value3 "MeasureAudioSmoothed{%%}"][!UpdateMeasure "ScriptFactoryBars"][!UpdateMeasure "ScriptFactoryShadowBars"][!CommandMeasure "ScriptFactoryBars" "Initialize()"][!CommandMeasure "ScriptFactoryShadowBars" "Initialize()"]
-UpdateDivider=-1
-
-[MeasureClipSongInformation]
-Measure=Calc
-Formula=#ClipSongInformation#
-IfEqualValue=1
-IfEqualAction=[!SetOption MeterArtist W "#SkinWidth#"][!SetOption MeterTrack W "#SkinWidth#"]
-IfBelowValue=1
-IfBelowAction=[!SetOption MeterArtist ClipString 2]
-UpdateDivider=-1
-
-[MeasureAddTextBorder]
-Measure=Calc
-Formula=#AddTextBorder#
-IfEqualValue=1
-IfEqualAction=[!SetOption MeterArtist StringEffect "Border"][!SetOption MeterTrack StringEffect "Border"]
-UpdateDivider=-1
-
 [MeasureStaticColor]
 Measure=String
 String=#Color#
@@ -82,8 +24,7 @@ Substitute="":"#Color#"
 OnChangeAction=[!UpdateMeasure "CalcColors"]
 
 [MeasureGenre]
-Measure=Plugin
-Plugin=NowPlaying
+Measure=NowPlaying
 PlayerName=#PlayerName#
 PlayerType=Genre
 ; You can add your own genres here.
@@ -134,17 +75,17 @@ Disabled=1
 [CalcColors]
 Measure=Calc
 IfConditionMode=1
-IfCondition= (#EnableDynamicColors# = 0) && (#DisableDynamicFontColors# = 1)
+IfCondition= (#EnableDynamicColors# = 0) && (#EnableDynamicFontColors# = 0)
 IfTrueAction=[!SetVariable Color "[MeasureStaticColor]"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
-IfCondition2= (#EnableDynamicColors# = 1) && (#DisableDynamicFontColors# = 1)
+IfCondition2= (#EnableDynamicColors# = 1) && (#EnableDynamicFontColors# = 0)
 IfTrueAction2=[!SetVariable Color "#GenreColor#"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
-IfCondition3= (#EnableDynamicColors# = 2) && (#DisableDynamicFontColors# = 1)
+IfCondition3= (#EnableDynamicColors# = 2) && (#EnableDynamicFontColors# = 0)
 IfTrueAction3=[!SetVariable Color "[MeasureCoverColor]"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
-IfCondition4= (#EnableDynamicColors# = 0) && (#DisableDynamicFontColors# = 0)
+IfCondition4= (#EnableDynamicColors# = 0) && (#EnableDynamicFontColors# = 1)
 IfTrueAction4=[!SetVariable Color "[MeasureStaticColor]"][!SetVariable TextColor "[MeasureStaticColor]"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
-IfCondition5= (#EnableDynamicColors# = 1) && (#DisableDynamicFontColors# = 0)
+IfCondition5= (#EnableDynamicColors# = 1) && (#EnableDynamicFontColors# = 1)
 IfTrueAction5=[!SetVariable Color "#GenreColor#"][!SetVariable TextColor "#GenreColor#"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
-IfCondition6= (#EnableDynamicColors# = 2) && (#DisableDynamicFontColors# = 0)
+IfCondition6= (#EnableDynamicColors# = 2) && (#EnableDynamicFontColors# = 1)
 IfTrueAction6=[!SetVariable Color "[MeasureCoverColor]"][!SetVariable TextColor "[MeasureCoverColor]"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
 UpdateDivider=-1
 DynamicVariables=1

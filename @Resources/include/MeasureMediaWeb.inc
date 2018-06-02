@@ -2,63 +2,63 @@
 Measure=Plugin
 Plugin=WebNowPlaying
 PlayerType=State
-UpdateDivider=10
+UpdateDivider=20
 
 [MeasureStateButton]
 Measure=Plugin
 Plugin=WebNowPlaying
-PlayerType=STATE
-Substitute="0":"Play","1":"Pause","2":"Play","3":"Replay"
+PlayerType=State
+Substitute="0":"Play","1":"Pause","2":"Play"
+UpdateDivider=20
 
 [MeasureTrack]
 Measure=Plugin
 Plugin=WebNowPlaying
-PlayerType=TITLE
+PlayerType=Title
 Substitute="":"#NoTrackNameText#"
 UpdateDivider=100
 
-[MeasureArtist]
+[MeasureTrack]
 Measure=Plugin
 Plugin=WebNowPlaying
-PlayerType=ARTIST
+PlayerType=Artist
 Substitute="":"#NoArtistNameText#"
 UpdateDivider=100
 
 [MeasureCover]
 Measure=Plugin
 Plugin=WebNowPlaying
-PlayerType=COVER
+PlayerType=Cover
 DefaultPath=#@#images\nocover.png
 CoverPath=#@#images\coverWeb.png
 Substitute="":"#@#images\nocover.png"
-UpdateDivider=50
+UpdateDivider=100
 
 [MeasurePosition]
 Measure=Plugin
 Plugin=WebNowPlaying
 PlayerType=Position
-UpdateDivider=10
+UpdateDivider=20
 
 [MeasureDuration]
 Measure=Plugin
 Plugin=WebNowPlaying
-PlayerType=DURATION
-UpdateDivider=10
+PlayerType=Duration
+UpdateDivider=20
 
 [MeasureProgress]
 Measure=Plugin
 Plugin=WebNowPlaying
 PlayerType=Progress
+UpdateDivider=20
 
 [MeasureAutoHideWebNowPlaying]
 Measure=Plugin
 Plugin=WebNowPlaying
 PlayerType=Status
 IfBelowValue=1
-IfBelowAction=[!HideFade][!HideFade "#ROOTCONFIG#\Song Information"]
-IfEqualValue=1
-IfEqualAction=[!ShowFade][!ShowFade "#ROOTCONFIG#\Song Information"]
-IfAboveValue=1
-IfAboveAction=[!ShowFade][!ShowFade "#ROOTCONFIG#\Song Information"]
-Disabled=#DisableAutoHide#
+IfBelowAction=[!HideFadeGroup "Spectrum"][!HideFadeGroup "SongInfo"][!Log "AutoHide: WebNowPlaying was closed, hiding skin"]
+IfAboveValue=0
+IfAboveAction=[!ShowFadeGroup "Spectrum"][!ShowFadeGroup "SongInfo"][!Log "AutoHide: WebNowPlaying was opened, showing skin"]
+Disabled=(#EnableAutoHide# > 0 ? 0 : 1)
 UpdateDivider=100

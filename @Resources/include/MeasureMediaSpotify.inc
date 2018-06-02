@@ -2,13 +2,14 @@
 Measure=Plugin
 Plugin=SpotifyPlugin
 Type=Playing
-UpdateDivider=10
+UpdateDivider=20
 
 [MeasureStateButton]
 Measure=Plugin
 Plugin=SpotifyPlugin
 Type=Playing
 Substitute="0":"Play","1":"Pause","2":"Play"
+UpdateDivider=20
 
 [MeasureTrack]
 Measure=Plugin
@@ -28,40 +29,44 @@ UpdateDivider=100
 Measure=Plugin
 Plugin=SpotifyPlugin
 Type=AlbumArt
-Res=640
+Res=300
+DefaultPath=#@#images\nocover.png
 CoverPath=#@#images\coverSpotify.png
 Substitute="":"#@#images\nocover.png"
-Paused=#ShowMonstercatCover#
-UpdateDivider=50
+UpdateDivider=100
 
 [MeasurePosition]
 Measure=Plugin
 Plugin=SpotifyPlugin
 Type=Position
-UpdateDivider=10
+UpdateDivider=20
 
 [MeasureDuration]
 Measure=Plugin
 Plugin=SpotifyPlugin
 Type=Length
-UpdateDivider=10
+UpdateDivider=20
 
 [MeasureProgressPrecent]
 Measure=Plugin
 Plugin=SpotifyPlugin
 Type=Progress
+UpdateDivider=20
 
 [MeasureProgress]
 Measure=Calc
 Formula=MeasureProgressPrecent*100
+MinValue=0
+MaxValue=100
+UpdateDivider=20
 
 [MeasureAutoHideSpotify]
 Measure=Plugin
 Plugin=Process
 ProcessName=Spotify.exe
 IfEqualValue=-1
-IfEqualAction=[!HideFade][!HideFade "#ROOTCONFIG#\Song Information"]
+IfEqualAction=[!HideFadeGroup "Spectrum"][!HideFadeGroup "SongInfo"][!Log "AutoHide: Spotify was closed, hiding skin"]
 IfAboveValue=-1
-IfAboveAction=[!ShowFade][!ShowFade "#ROOTCONFIG#\Song Information"]
-Disabled=#DisableAutoHide#
+IfAboveAction=[!ShowFadeGroup "Spectrum"][!ShowFadeGroup "SongInfo"][!Log "AutoHide: Spotify was opened, showing skin"]
+Disabled=(#EnableAutoHide# > 0 ? 0 : 1)
 UpdateDivider=100

@@ -2,13 +2,14 @@
 Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=State
-UpdateDivider=10
+UpdateDivider=20
 
 [MeasureStateButton]
 Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=State
 Substitute="0":"Play","1":"Pause","2":"Play"
+UpdateDivider=20
 
 [MeasureTrack]
 Measure=Plugin
@@ -17,7 +18,7 @@ PlayerInfo=Title
 Substitute="":"#NoTrackNameText#"
 UpdateDivider=100
 
-[MeasureArtist]
+[MeasureTrack]
 Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=Artist
@@ -31,33 +32,33 @@ PlayerInfo=Cover
 DefaultPath=#@#images\nocover.png
 CoverPath=#@#images\coverGPMDP.png
 Substitute="":"#@#images\nocover.png"
-Paused=#ShowMonstercatCover#
-UpdateDivider=50
+UpdateDivider=100
 
 [MeasurePosition]
 Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=Position
-UpdateDivider=10
+UpdateDivider=20
 
 [MeasureDuration]
 Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=Duration
+UpdateDivider=20
 
 [MeasureProgress]
 Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=Progress
-UpdateDivider=10
+UpdateDivider=20
 
 [MeasureAutoHideGPMDP]
 Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=Status
 IfBelowValue=1
-IfBelowAction=[!HideFade][!HideFade "#ROOTCONFIG#\Song Information"]
+IfBelowAction=[!HideFadeGroup "Spectrum"][!HideFadeGroup "SongInfo"][!Log "AutoHide: GPMDP was closed, hiding skin"]
 IfAboveValue=0
-IfAboveAction=[!ShowFade][!ShowFade "#ROOTCONFIG#\Song Information"]
-Disabled=#DisableAutoHide#
+IfAboveAction=[!ShowFadeGroup "Spectrum"][!ShowFadeGroup "SongInfo"][!Log "AutoHide: GPMDP was opened, showing skin"]
+Disabled=(#EnableAutoHide# > 0 ? 0 : 1)
 UpdateDivider=100
