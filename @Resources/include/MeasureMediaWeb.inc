@@ -18,7 +18,7 @@ PlayerType=Title
 Substitute="":"#NoTrackNameText#"
 UpdateDivider=100
 
-[MeasureTrack]
+[MeasureArtist]
 Measure=Plugin
 Plugin=WebNowPlaying
 PlayerType=Artist
