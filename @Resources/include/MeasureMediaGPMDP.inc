@@ -18,7 +18,7 @@ PlayerInfo=Title
 Substitute="":"#NoTrackNameText#"
 UpdateDivider=100
 
-[MeasureTrack]
+[MeasureArtist]
 Measure=Plugin
 Plugin=GPMDPPlugin
 PlayerInfo=Artist
