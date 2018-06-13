@@ -2,14 +2,14 @@
 Measure=NowPlaying
 PlayerName=#PlayerName#
 PlayerType=State
-UpdateDivider=20
+UpdateDivider=2
 
 [MeasureStateButton]
 Measure=NowPlaying
 PlayerName=#PlayerName#
 PlayerType=State
 Substitute="0":"Play","1":"Pause","2":"Play"
-UpdateDivider=20
+UpdateDivider=2
 
 [MeasureTrack]
 Measure=NowPlaying
