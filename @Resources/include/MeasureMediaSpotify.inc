@@ -1,7 +1,7 @@
 [MeasureState]
-Measure=Plugin
-Plugin=SpotifyPlugin
-Type=Playing
+Measure=NowPlaying
+Playername=Spotify
+PlayerType=State
 UpdateDivider=2
 
 [MeasureStateButton]
