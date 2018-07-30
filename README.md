@@ -1,4 +1,7 @@
+## INFO: Spotify is broken right now, read more about this here: [#191: Not pulling cover art, song title, or artist from Spotify](https://github.com/MarcoPixel/Monstercat-Visualizer/issues/191)
+
 ![Monstercat Visualizer Screenshot](https://i.imgur.com/cu1R235.png "Monstercat Visualizer Screenshot")
+
 
 # Monstercat Visualizer
 [![GitHub release](https://img.shields.io/github/release/MarcoPixel/Monstercat-Visualizer.svg?colorB=97CA00?label=version)](https://github.com/MarcoPixel/Monstercat-Visualizer/releases/latest) [![Github All Releases](https://img.shields.io/github/downloads/MarcoPixel/Monstercat-Visualizer/total.svg?colorB=97CA00)](https://github.com/MarcoPixel/Monstercat-Visualizer/releases) [![GitHub stars](https://img.shields.io/github/stars/MarcoPixel/Monstercat-Visualizer.svg?colorB=007EC6)](https://github.com/MarcoPixel/Monstercat-Visualizer/stargazers)  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/MarcoPixel/Monstercat-Visualizer/master/LICENSE)
@@ -63,6 +66,8 @@ You can access the frequently asked questions and our troubleshooting guide in o
 #### [Click here to open the wiki](https://github.com/MarcoPixel/Monstercat-Visualizer/wiki).
 
 ## Issues & feature requests
+
+#### INFO: Spotify is broken right now, read more about this here: [#191: Not pulling cover art, song title, or artist from Spotify](https://github.com/MarcoPixel/Monstercat-Visualizer/issues/191)
 
 If you still have issues or a bug, please report them [here](https://github.com/MarcoPixel/Monstercat-Visualizer/issues). Be sure to follow the existing template and fill out the necessary information, otherwise it will be closed without notice.
 
