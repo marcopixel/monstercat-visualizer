@@ -33,7 +33,7 @@ PlayerType=Genre
 IfMatch=Electro
 IfMatchAction=[!SetVariable GenreColor "#Electro#"]
 ; Electronic/EDM
-IfMatch2=EDM|Electronic|Breaks|Chillout|Bounce|Chill
+IfMatch2=EDM|Electronic|Breaks|Chillout|Bounce|Chill|Techno
 IfMatchAction2=[!SetVariable GenreColor "#EDM#"]
 ; House/Progressive House
 IfMatch3=House|Electro\sHouse|Progressive\sHouse
@@ -48,16 +48,16 @@ IfMatchAction5=[!SetVariable GenreColor "#Dubstep#"]
 IfMatch6=Drumstep
 IfMatchAction6=[!SetVariable GenreColor "#Drumstep#"]
 ; Glitch Hop
-IfMatch7=Glitch\sHop|GlitchHop
+IfMatch7=Glitch\sHop|GlitchHop|Moombahton
 IfMatchAction7=[!SetVariable GenreColor "#GlitchHop#"]
 ; Trap
 IfMatch8=Trap
 IfMatchAction8=[!SetVariable GenreColor "#Trap#"]
 ; Trance
-IfMatch9=Trance|Deep\sHouse
+IfMatch9=Trance|Deep\sHouse|Psytrance
 IfMatchAction9=[!SetVariable GenreColor "#Trance#"]
 ; Hard Dance
-IfMatch10=Hard\sDance
+IfMatch10=Hard\sDance|Hardcore|Happy\sHardcore
 IfMatchAction10=[!SetVariable GenreColor "#HardDance#"]
 ; Nu Disco/Indie Dance
 IfMatch11=Nu\sDisco|NuDisco|Disco|Indie\sDance|Electro\sSwing
