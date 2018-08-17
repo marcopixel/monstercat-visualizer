@@ -45,7 +45,7 @@ IfMatchAction4=[!SetVariable GenreColor "#DnB#"]
 IfMatch5=Dubstep
 IfMatchAction5=[!SetVariable GenreColor "#Dubstep#"]
 ; Drumstep
-IfMatch6=Drumstep
+IfMatch6=Drumstep|Halftime
 IfMatchAction6=[!SetVariable GenreColor "#Drumstep#"]
 ; Glitch Hop
 IfMatch7=Glitch\sHop|GlitchHop|Moombahton
