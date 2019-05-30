@@ -1,5 +1,16 @@
 ; https://api.github.com/repos/marcopixel/Monstercat-Visualizer/releases/latest
 
+; Measure SetMediaPlayer - sets the media player and changes the MPMode variable to load the proper measures
+[MeasureSetMediaPlayer]
+Measure=String
+String=#PlayerName#
+IfMatch=GPMDP
+IfMatchAction=[!WriteKeyValue Variables MPMode GPMDP "#@#variables.ini"][!DisableMeasure MeasureGenre]
+IfMatch2=Web
+IfMatchAction2=[!WriteKeyValue Variables MPMode Web "#@#variables.ini"][!DisableMeasure MeasureGenre]
+IfNotMatchAction=[!WriteKeyValue Variables MPMode NowPlaying "#@#variables.ini"][!EnableMeasure MeasureGenre]
+UpdateDivider=-1
+
 [MeasureWebParser]
 Measure=WebParser
 URL=https://github.com/MarcoPixel/Monstercat-Visualizer/releases/latest
