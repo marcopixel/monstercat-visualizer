@@ -6,7 +6,7 @@
 
 A real time audio visualizer for Rainmeter similar to the ones used in the Monstercat videos.
 
-Supports all major media players, including full **Spotify**, **Google Play Music Desktop Player** and **Chrome/Firefox webplayer** support (thanks to **[@tjhrulz](https://github.com/tjhrulz) and **[@khanhas](https://github.com/khanhas)**)  for the amazing plugins used in this skin).
+Supports all major media players, including full **Spotify**, **Google Play Music Desktop Player** and **Chrome/Firefox webplayer** support (thanks to **[@tjhrulz](https://github.com/tjhrulz)** and **[@khanhas](https://github.com/khanhas)**)  for the amazing plugins used in this skin).
 
 ## Minimum Requirements:
  - Windows 7 or higher.
