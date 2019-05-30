@@ -60,6 +60,7 @@ You can also request new features and help them develop by joining the discussio
 - **Google Play Music Desktop Player Plugin** - **[@tjhrulz](https://github.com/tjhrulz/GPMDP-Plugin)**
 - **WebNowPlaying Plugin** - **[@tjhrulz](https://github.com/tjhrulz/WebNowPlaying)**
 - **spicetify-cli** - **[@khanhas](https://github.com/khanhas/spicetify-cli)**
+- **SysColor** - **[@brianferguson](https://github.com/brianferguson/SysColor.dll)**
 - **Montserrat Font** - **[@JulietaUla](https://github.com/JulietaUla/Montserrat)**
 - **Media Controls Icons** - **[Material Icons](https://material.io/icons/)**
 - **Additional Icons** - **[Feather Icons](https://feathericons.com/)**
