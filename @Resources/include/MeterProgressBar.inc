@@ -20,3 +20,4 @@ BarColor=#Color#
 DynamicVariables=1
 Group=GroupProgressBar | GroupDynamicColors
 Hidden=(#ShowProgressBar# > 0 ? 0 : 1)
+LeftMouseUpAction=[!CommandMeasure MeasureProgress "SetPosition $MouseX:%$"][!Update][!Redraw]
