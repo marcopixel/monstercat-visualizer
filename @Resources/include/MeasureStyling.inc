@@ -23,6 +23,13 @@ Color=Background1
 Substitute="":"#Color#"
 OnChangeAction=[!UpdateMeasure "CalcColors"]
 
+[MeasureWindowsColor]
+Measure=Plugin
+Plugin=SysColor
+DisplayType=RGB
+ColorType=DWM_COLOR
+OnChangeAction=[!UpdateMeasure "CalcColors"]
+
 [MeasureGenre]
 Measure=NowPlaying
 PlayerName=#PlayerName#
@@ -81,11 +88,15 @@ IfCondition2= (#EnableDynamicColors# = 1) && (#EnableDynamicFontColors# = 0)
 IfTrueAction2=[!SetVariable Color "#GenreColor#"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
 IfCondition3= (#EnableDynamicColors# = 2) && (#EnableDynamicFontColors# = 0)
 IfTrueAction3=[!SetVariable Color "[MeasureCoverColor]"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
-IfCondition4= (#EnableDynamicColors# = 0) && (#EnableDynamicFontColors# = 1)
-IfTrueAction4=[!SetVariable Color "[MeasureStaticColor]"][!SetVariable TextColor "[MeasureStaticColor]"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
-IfCondition5= (#EnableDynamicColors# = 1) && (#EnableDynamicFontColors# = 1)
-IfTrueAction5=[!SetVariable Color "#GenreColor#"][!SetVariable TextColor "#GenreColor#"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
-IfCondition6= (#EnableDynamicColors# = 2) && (#EnableDynamicFontColors# = 1)
-IfTrueAction6=[!SetVariable Color "[MeasureCoverColor]"][!SetVariable TextColor "[MeasureCoverColor]"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
+IfCondition4= (#EnableDynamicColors# = 3) && (#EnableDynamicFontColors# = 0)
+IfTrueAction4=[!SetVariable Color "[MeasureWindowsColor]"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
+IfCondition5= (#EnableDynamicColors# = 0) && (#EnableDynamicFontColors# = 1)
+IfTrueAction5=[!SetVariable Color "[MeasureStaticColor]"][!SetVariable TextColor "[MeasureStaticColor]"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
+IfCondition6= (#EnableDynamicColors# = 1) && (#EnableDynamicFontColors# = 1)
+IfTrueAction6=[!SetVariable Color "#GenreColor#"][!SetVariable TextColor "#GenreColor#"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
+IfCondition7= (#EnableDynamicColors# = 2) && (#EnableDynamicFontColors# = 1)
+IfTrueAction7=[!SetVariable Color "[MeasureCoverColor]"][!SetVariable TextColor "[MeasureCoverColor]"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
+IfCondition8= (#EnableDynamicColors# = 3) && (#EnableDynamicFontColors# = 1)
+IfTrueAction8=[!SetVariable Color "[MeasureWindowsColor]"][!SetVariable TextColor "[MeasureWindowsColor]"][!SetOptionGroup GroupDynamicColors DynamicVariables "0"]
 UpdateDivider=-1
 DynamicVariables=1
