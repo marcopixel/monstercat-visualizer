@@ -53,18 +53,13 @@ function Initialize()
   -- write skin width to variables file
   SKIN:Bang("!WriteKeyValue", "Variables", "SkinWidth", skinWidth, "#@#variables.ini")
 
-  -- disable progress bar when angle is higher than 0
-  if angle > 0 then
-	SKIN:Bang("!SetOptionGroup", "GroupProgressBar", "Hidden", 1, config)
-  end
-
   -- When Angle is 0 revert to default behaviour
-  if angle ~= 0 then
+  if angle ~= 0 and angle ~= 180 then
     if nearestAxis ~= 0 then
       SKIN:Bang("!SetOptionGroup", "GroupBars", "BarOrientation", "Horizontal", config)
-	  SKIN:Bang("!SetOptionGroup", "GroupProgressBar", "Hidden", 1, config)
+      SKIN:Bang("!SetOptionGroup", "GroupProgressBar", "Hidden", 1, config)
     end
-	SKIN:Bang("!SetOptionGroup", "GroupBars", "AntiAlias", 1, config)
+  	SKIN:Bang("!SetOptionGroup", "GroupBars", "AntiAlias", 1, config)
     SKIN:Bang("!SetOptionGroup", "GroupBars", "TransformationMatrix", matrix, config)
     SKIN:Bang("!UpdateMeterGroup", "GroupBars", config)
     SKIN:Bang("!SetOptionGroup", "GroupBars", "TransformationMatrix", "", config)
