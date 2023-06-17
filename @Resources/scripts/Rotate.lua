@@ -53,7 +53,7 @@ function Initialize()
   -- write skin width to variables file
   SKIN:Bang("!WriteKeyValue", "Variables", "SkinWidth", skinWidth, "#@#variables.ini")
 
-  -- When Angle is 0 or 180 revert to default behaviour
+  -- When Angle is 0 or 180 revert to default behaviour, fix for issue #251
   if angle ~= 0 and angle ~= 180 then
     if nearestAxis ~= 0 then
       SKIN:Bang("!SetOptionGroup", "GroupBars", "BarOrientation", "Horizontal", config)
